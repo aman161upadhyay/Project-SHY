@@ -1,0 +1,4 @@
+#Writing all the required libraries for other users here
+
+setuptools
+numpy
