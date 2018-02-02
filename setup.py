@@ -8,5 +8,5 @@ setup(
     author_email='aman161upadhyay@gmail.com',
     description='',
     packages=find_packages(),
-    testsuite='tests'
+    test_suite='tests'
 )

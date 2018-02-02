@@ -8,9 +8,9 @@ class Protein:
     Info https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/pdbintro.html
     """
 
-    def __init__(self, name, lines):
+    def __init__(self, name, data):
         self.name = name
-        self.lines = lines
+        self.lines = data.readlines()
 
     @staticmethod
     def parse_line_atom_details(line):
@@ -24,7 +24,7 @@ class Protein:
     def contains_amino_acid(self, amino_acid_name):
         """ Check if a protein contains an amino acid """
         for line in self.lines:
-            if line[16:20] == amino_acid_name:
+            if line[17:20].strip() == amino_acid_name:
                 return True
         return False
 
@@ -32,9 +32,9 @@ class Protein:
         """ Returns details of a type of atom """
         results = []
         for line in self.lines:
-            if line[12:16] == atom_name and line[16:20] == amino_acid_name:
+            if line[12:16].strip() == atom_name and line[17:20].strip() == amino_acid_name:
                 atom = Protein.parse_line_atom_details(line)
-                results.extend(atom)
+                results.append(atom)
         return results
 
     def get_atom(self, residue_number):
@@ -42,7 +42,7 @@ class Protein:
         if residue_number == 0:
             raise ValueError
         for line in self.lines:
-            if int(line[7:11]) == residue_number:
+            if int(line[7:11].strip()) == residue_number:
                 return Protein.parse_line_atom_details(line)
 
     def get_neighbouring_atoms_of_type(self, center_atom, neighbour_atom_type, max_neighbour_distance):
@@ -52,10 +52,10 @@ class Protein:
         """
         results = []
         for line in self.lines:
-            if line[12:16] == neighbour_atom_type and line[17:20] != "HOH":
+            if line[12:16].strip() == neighbour_atom_type and line[17:20].strip() != "HOH":
                 atom = Protein.parse_line_atom_details(line)
                 if Atom.distance(center_atom, atom) <= max_neighbour_distance:
-                    results.extend(atom)
+                    results.append(atom)
         return results
 
     def get_connected_atoms(self, center_atom):
