@@ -10,5 +10,6 @@ class Atom:
 
     @staticmethod
     def distance(atom1, atom2):
-        dist = numpy.linalg.norm(atom1.coordinates-atom2.coordinates)
+        """ Distance between two atoms """
+        dist = numpy.linalg.norm(atom1.coordinates - atom2.coordinates)
         return dist

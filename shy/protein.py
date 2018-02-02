@@ -14,6 +14,7 @@ class Protein:
 
     @staticmethod
     def parse_line_atom_details(line):
+        """ Get atom object from line string"""
         residue_number = line[7:11].strip()
         x = line[30:38].strip()
         y = line[38:46].strip()
@@ -37,6 +38,7 @@ class Protein:
         return results
 
     def get_atom(self, residue_number):
+        """ Get atom with a specific residue number """
         if residue_number == 0:
             raise ValueError
         for line in self.lines:
