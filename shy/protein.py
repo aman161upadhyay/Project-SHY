@@ -10,15 +10,18 @@ class Protein:
 
     def __init__(self, name, data):
         self.name = name
-        self.lines = data.readlines()
+        self.lines = []
+        for line in data.readlines():
+            if line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("CONECT"):
+                self.lines.append(line)
 
     @staticmethod
     def parse_line_atom_details(line):
         """ Get atom object from line string"""
-        residue_number = line[7:11].strip()
-        x = line[30:38].strip()
-        y = line[38:46].strip()
-        z = line[46:54].strip()
+        residue_number = int(line[7:11].strip())
+        x = float(line[30:38].strip())
+        y = float(line[38:46].strip())
+        z = float(line[46:54].strip())
         return Atom(residue_number, x, y, z)
 
     def contains_amino_acid(self, amino_acid_name):
@@ -29,7 +32,7 @@ class Protein:
         return False
 
     def get_atoms(self, amino_acid_name, atom_name):
-        """ Returns details of a type of atom """
+        """ Returns list of atom objects for a type of atoms """
         results = []
         for line in self.lines:
             if line[12:16].strip() == atom_name and line[17:20].strip() == amino_acid_name:
@@ -37,18 +40,10 @@ class Protein:
                 results.append(atom)
         return results
 
-    def get_atom(self, residue_number):
-        """ Get atom with a specific residue number """
-        if residue_number == 0:
-            raise ValueError
-        for line in self.lines:
-            if int(line[7:11].strip()) == residue_number:
-                return Protein.parse_line_atom_details(line)
-
-    def get_neighbouring_atoms_of_type(self, center_atom, neighbour_atom_type, max_neighbour_distance):
+    def get_proximal_atoms(self, center_atom, neighbour_atom_type, max_neighbour_distance):
         """
-        Get atoms' info inside a particular radii's sphere
-        (except) Atoms belonging to water residues are excluded
+        Get atoms inside a particular radii's sphere
+        (exception) Atoms belonging to water residues are excluded
         """
         results = []
         for line in self.lines:
@@ -63,7 +58,15 @@ class Protein:
         results = []
         for line in self.lines:
             if line.startswith("CONECT"):
-                connections = line.split()[1:]
+                connections = [int(line[start_index: start_index+5].strip()) for start_index in range(6, len(line)-1, 5)]
                 if connections[0] == center_atom.residue_number:
                     results = [self.get_atom(connection) for connection in connections[1:]]
         return results
+
+    def get_atom(self, residue_number):
+        """ Get atom with a specific residue number """
+        if residue_number == 0:
+            raise ValueError
+        for line in self.lines:
+            if int(line[7:11].strip()) == residue_number:
+                return Protein.parse_line_atom_details(line)
