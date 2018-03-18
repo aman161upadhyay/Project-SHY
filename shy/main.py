@@ -24,6 +24,8 @@ for filename in os.listdir(dir_path):
         protein_name = filename[0:4]
         protein_data = open(os.path.join(dir_path, filename), 'r')
         proteins.append(Protein(protein_name, protein_data))
+        protein_data.close()
+
 
 count = 0
 probable_hbond = []
@@ -31,7 +33,7 @@ probable_hbond = []
 for protein in proteins:
     print(count)
     count+=1
-    print("Analyzing" + protein.name)
+    print("Analyzing " + protein.name)
     se_atoms = protein.get_atoms("MSE", "SE")
 
     for se in se_atoms:
@@ -63,3 +65,8 @@ for protein in proteins:
 
     print(len(probable_hbond))
     print("--------------------")
+
+for bonds in probable_hbond:
+    print(bonds)
+
+
