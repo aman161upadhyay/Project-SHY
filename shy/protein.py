@@ -15,6 +15,7 @@ class Protein:
             if line.startswith("ATOM") or line.startswith("HETATM") or line.startswith("CONECT"):
                 self.lines.append(line)
 
+
     @staticmethod
     def parse_line_atom_details(line):
         """ Get atom object from line string"""

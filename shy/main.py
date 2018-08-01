@@ -27,46 +27,50 @@ for filename in os.listdir(dir_path):
         protein_data.close()
 
 
-count = 0
+count = 1
 probable_hbond = []
 
 for protein in proteins:
-    print(count)
-    count+=1
-    print("Analyzing " + protein.name)
+
     se_atoms = protein.get_atoms("MSE", "SE")
 
     for se in se_atoms:
         connected_atoms = protein.get_connected_atoms(se)
-        proximal_hydrogen = protein.get_proximal_atoms(se, "H", 2.5)
+        proximal_hydrogen = protein.get_proximal_atoms(se, "H", 2.9)
 
         for hydrogen in proximal_hydrogen:
             try:
                 for anti_antecedent in connected_atoms:
                     bond_angle = Atom.get_bond_angles(se, hydrogen, anti_antecedent)
-                    if bond_angle < numpy.pi/2:
+                    if bond_angle < numpy.pi / 3:
                         raise ContinueLabelled
 
             except ContinueLabelled:
                 continue
 
-            proximal_oxygen = protein.get_proximal_atoms(hydrogen, "O", 1)
-            proximal_nitrogen = protein.get_proximal_atoms(hydrogen, "N", 1.05)
+            proximal_oxygen = protein.get_proximal_atoms(hydrogen, "O", 1.1)
+            proximal_nitrogen = protein.get_proximal_atoms(hydrogen, "N", 1.1)
 
             for oxygen in proximal_oxygen:
                 bond_angle = Atom.get_bond_angles(hydrogen, se, oxygen)
-                if bond_angle > numpy.pi / 2:
-                    probable_hbond.append((protein.name, se, hydrogen, oxygen))
+                if bond_angle > numpy.pi / 3:
+                    probable_hbond.append((protein.name, se.residue_number, hydrogen.residue_number,
+                                           oxygen.residue_number,
+                                           se.coordinates, hydrogen.coordinates, oxygen.coordinates))
 
             for nitrogen in proximal_nitrogen:
                 bond_angle = Atom.get_bond_angles(hydrogen, se, nitrogen)
-                if bond_angle > numpy.pi / 2:
-                    probable_hbond.append((protein.name, se, hydrogen, nitrogen))
-
+                if bond_angle > numpy.pi / 3:
+                    probable_hbond.append((protein.name, se.residue_number, hydrogen.residue_number,
+                                           nitrogen.residue_number,
+                                           se.coordinates, hydrogen.coordinates, nitrogen.coordinates))
+    sys.stdout = open('output_29_11_60.txt', 'a')
+    print("file_no", count)
+    count += 1
+    print("Analyzing " + protein.name)
     print(len(probable_hbond))
-    print("--------------------")
 
 for bonds in probable_hbond:
     print(bonds)
 
-
+sys.stdout.flush()
