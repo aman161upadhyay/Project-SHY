@@ -1,0 +1,805 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    4  sudo apt install libappindicator1
+    5  sudo apt -f install
+    6  sudo apt install vlc
+    7  gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
+    8  ls 
+    9  cd Downloads
+   10  ls
+   11  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+   12  gsettings set com.canonical.Unity.Launcher launcher-position Top
+   13  gsettings set com.canonical.Unity.Launcher launcher-position Up
+   14  gsettings set com.canonical.Unity.Launcher launcher-position Left
+   15  sudo gedit /boot/grub/menu.lst
+   16  sudo gedit
+   17  sudo chmod +w /boot/grub/grub.cfg
+   18  sudo gedit /boot/grub/grub.cfg
+   19  sudo grub-set-default 2
+   20  sudo apt-get update
+   21  sudo apt-get upgrade
+   22  sudo add-apt-repository ppa:nathan-renniewaldock/flux
+   23  sudo apt-get update
+   24  sudo apt-get install fluxgui
+   25  sudo apt-get install icedtea-7-plugin
+   26  sudo apt-get install python-software-properties
+   27  sudo add-apt-repository ppa:webupd8team/java
+   28  sudo apt-get update
+   29  sudo apt-get install oracle-java8-installer
+   30  sudo apt-get install icedtea-8-plugin
+   31  cd Desktop/PDB/
+   32  ls
+   33  la | wc -l
+   34  for $f in *; do echo $f; done;
+   35  for f in *; do echo $f; done;
+   36  sublime
+   37  sudo apt-get install sublime
+   38  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   39  la
+   40  clear
+   41  ls
+   42  la
+   43  ls -lh
+   44  ls -lh | wc -l
+   45  ls -l
+   46  ls -lh
+   47  ls -lh | wc -l
+   48  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   49  sudo apt-get update
+   50  sudo apt-get sublime-text
+   51  sudo apt-get install sublime-text
+   52  subll
+   53  subl
+   54  cat 1n0q.pdb 
+   55  git init
+   56  sudo apt-get install git
+   57  git init
+   58  l
+   59  alias l
+   60  git status
+   61  git add .
+   62  git commit -m "initial data"
+   63  git config --global user.email "aman161upadhyay@gmail.com"
+   64  git config --global user.name "Aman Upadhyay"
+   65  git commit -m "initial data"
+   66  git status
+   67  cat 1n0q.pdb 
+   68  python
+   69  cat 1n0q.pdb 
+   70  python
+   71  for f in *; do python data_occupancy_filter.py $f ; done;
+   72  python data_occupancy_filter.py 1n0q.pdb 
+   73  for f in *; do python data_occupancy_filter.py $f ; done;
+   74  python data_occupancy_filter.py 1n0q.pdb 
+   75  for f in *; do python data_occupancy_filter.py $f ; done;
+   76  mkdir filtered_data ; for f in *; do python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   77  rm -rf filtered_data/
+   78  mkdir filtered_data ; count = 0; for f in *.pdb; do echo count; count=((count+1)); python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   79  mkdir filtered_data ; count = 0; for f in *.pdb; do echo count; count=count+1; python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   80  rm -rf filtered_data/
+   81  mkdir filtered_data ; count = 0; for f in *.pdb; do echo $count; count=$count+1; python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   82  mkdir filtered_data ; count = 0; for f in *.pdb; do echo $count; count=$(($count+1)); python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   83  rm -rf filtered_data/
+   84  mkdir filtered_data ; count=0; for f in *.pdb; do echo $count; count=$(($count+1)); python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   85  ls | grep *.pdb
+   86  ls
+   87  ls | grep *pdb
+   88  ls | wc -l
+   89  la | wc -l
+   90  ls | wc -l
+   91  cat '1n0q.pdb'
+   92  for f in *; do python data_occupancy_filter.py $f ; done;
+   93  clr
+   94  for f in *; do python data_occupancy_filter.py $f ; done;
+   95  la | wc -l
+   96  mkdir filtered_data ; count=0; for f in *.pdb; do echo $count; count=$(($count+1)); python data_occupancy_filter.py $f > filtered_data/$f.filtered.pdb ; done;
+   97  vim test.py
+   98  gedit test.py
+   99  python test.py 
+  100  python
+  101  ls *.py
+  102  ls 
+  103  ls *.pbd
+  104  ls 1r*
+  105  ls 1r*a.pdb
+  106  ls 1r_a.pdb
+  107  ls 1r*a.pdb
+  108  man la
+  109  la
+  110  man ls
+  111  mam rf
+  112  mam rm
+  113  man rm
+  114  ssh amanup@ccpc121.cc.iitk.ac.in
+  115  gedit ~/.bash_history 
+  116  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  117  ping google.com
+  118  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+  119  ~/.fzf/install
+  120  cd Desktop/PDB/
+  121  mkdir normalized_data ; for f in *.pdb; do python Occupancy_01_Day_01.py ^C > normalized_data/normalized.pdb ; done;
+  122  rm -rf normalized_data
+  123  mkdir normalized_data ; for f in *.pdb; do python Occupancy_01_Day_01.py > normalized_data/normalized.pdb ; done;
+  124  for f in *.pdb ;do python Occupancy_01_Day_01.py $f ; done;  
+  125  mkdir normalized_data ; for f in *.pdb; do python Occupancy_01_Day_01.py > normalized_data/normalized.pdb ; done;
+  126  rm -rf normalized_data
+  127  mkdir normalized_data ; for f in *.pdb; do python Occupancy_01_Day_01.py > normalized_data/normalized.pdb ; done;
+  128  sudo apt-get update
+  129  ls
+  130  cd Desktop
+  131  ls
+  132  cd UGP_Begins
+  133  mkdir selenium_inclusive
+  134  for f in *.pdb; do selenium.py $f > selenium_inclusive/$f.done.pdb ; done ;
+  135  for f in *.pdb; do UGP_Begins/selenium.py $f > selenium_inclusive/$f.done.pdb ; done ;
+  136  ls
+  137  for f in *.pdb; do selenium.py $f > selenium_inclusive/$f.done.pdb ; done ;
+  138  selenium.py
+  139  python
+  140  ls
+  141  ls | grep 100
+  142  ls | grep 1
+  143  ls
+  144  cd ..
+  145  ls
+  146  clear
+  147  vim script.py
+  148  sudo apt install vim
+  149  vim script.py
+  150  ls
+  151  la script.py 
+  152  ls -A script.py 
+  153  ls -a script.py 
+  154  ls -l script.py 
+  155  chmod +x script.py 
+  156  ls -l script.py 
+  157  ./script.py 
+  158  script
+  159  ./script.py 
+  160  script.py
+  161  echo $PATH
+  162  ls /home/aman/bin
+  163  ls /bin
+  164  cp
+  165  which cp
+  166  cd Desktop
+  167  mkdir project-se
+  168  mv raw\ data/ project-se/
+  169  ls
+  170  l
+  171  cd project-se/
+  172  ls
+  173  mv raw\ data/ rawdata
+  174  ls
+  175  subl .
+  176  echo $SHELL
+  177  mkdir unzippeddata
+  178  man gunzip
+  179  for f in rawdata/*.gz; do gunzip -c -k $f > unzippeddata/$f; done;
+  180  ls
+  181  ls unzippeddata/
+  182  la unzippeddata/
+  183  la rawdata/
+  184  clera
+  185  clear
+  186  ls
+  187  cd rawdata/
+  188  for f in *.gz; do gunzip -c -k $f > ../unzippeddata/$f; done;
+  189  rm ../unzippeddata/*
+  190  ls ../unzippeddata/
+  191  ls
+  192  la
+  193  ls -l
+  194  ls -l | wc -l
+  195  count=0
+  196  echo $count
+  197  count=0; for f in *.gz; do gunzip -c -k $f > ../unzippeddata/$f; echo $count; count=$(($count+1)); done;
+  198  ls
+  199  clear
+  200  ls -l | wc -l
+  201  ls -l ../unzippeddata/ | wc -l
+  202  clear
+  203  cd ../unzippeddata/
+  204  ls
+  205  cat 1wb0.pdb.gz 
+  206  rename "s/.gz//" *
+  207  ls
+  208  rm *
+  209  l
+  210  ls
+  211  cd ../rawdata/
+  212  asdf
+  213  cp * ../unzippeddata/
+  214  ls
+  215  ls -l | wc -l
+  216  cd .
+  217  ls -l ../unzippeddata/ | wc -l
+  218  cd ..
+  219  rm -rf unzippeddata/
+  220  cp rawdata/ unzippeddata -rf
+  221  ls -l unzippeddata/ | wc -l
+  222  cd unzippeddata/
+  223  count=0; for f in *; do gunzip $f; echo $count; count=$(($count+1)); done;
+  224  clear
+  225  ls -l | wc -l
+  226  ls
+  227  ls *.tar
+  228  cp 4v4m-pdb-bundle.tar ../
+  229  cd ..
+  230  ls
+  231  tar -xvf 4v4m-pdb-bundle.tar 
+  232  ls
+  233  rm unzippeddata/4v4m-pdb-bundle.tar 
+  234  ls -l | wc -l
+  235  cd unzippeddata/
+  236  ls -l | wc -l
+  237  ls -l
+  238  ls -l | wc -l
+  239  ls -l ..
+  240  clear
+  241  grep -nr SE
+  242  grep -nr "SE "
+  243  grep -l "SE "
+  244  grep -rl "SE "
+  245  grep -rl "SE " | wc -l
+  246  grep -rl " SE " | wc -l
+  247  grep -rn " SE "
+  248  grep -m 1 -rn " SE "
+  249  grep -m 1 -rn " SE " | wc -l
+  250  cd ..
+  251  cd unzippeddata/
+  252  grep -m 1 -rl " SE " | wc -l
+  253  ls
+  254  cd ..
+  255  cp unzippeddata/ ../
+  256  cp unzippeddata/ ../ -r 
+  257  rm -rf ../unzippeddata/
+  258  ls ..
+  259  ls
+  260  cd unzippeddata/
+  261  ls -l | wc -l
+  262  mkdir ../filtered
+  263  grep -m 1 -rl " SE " | while read f; do cp "$f" ../filtered/ ; done
+  264  ls ../filtered/
+  265  count=0; grep -m 1 -rl " SE " | while read f; do cp "$f" ../filtered/; echo $count; count=$(($count+1)) ; done;
+  266  History
+  267  ~/history
+  268  history
+  269  cat ~/.bash_history 
+  270  man la
+  271  alias la
+  272  history
+  273  clear
+  274  cd Downloads
+  275  ls
+  276  sudo apt-get install dtrx
+  277  ls
+  278  sudo apt-get install reduce.3.23.130521
+  279  ls
+  280  dtrx reduce.3.23.130521.linuxi386.gz
+  281  ls
+  282  sudo apt-get install reduce.3.23.130521.linuxi386
+  283  sudo chmod +x reduce.3.23.130521.linuxi386
+  284  sudo chmod +x reduce.3.23.130521.linuxi386.bin
+  285  sudo chmod +x reduce.3.23.130521.linuxi386.run
+  286  sudo apt-get install gawk
+  287  man mv
+  288  cd Desktop/
+  289  cd desktop
+  290  cd Desktop
+  291  cd ~/Desktop
+  292  ls
+  293  cd project-se/
+  294  ls
+  295  ../
+  296  cd ../
+  297  cd softwares
+  298  ls
+  299  cd molprobity
+  300  ls
+  301  dtrx MolProbity-master.zip 
+  302  ls
+  303  git clone https://github.com/rlabduke/MolProbity.git --branch molprobity_4.4 --single-branch --depth 1
+  304  ./configure.sh
+  305  ls
+  306  cd MolProbity-master
+  307  ./configure.sh
+  308  ./setup.sh
+  309  cd ../../../
+  310  cd ~/
+  311  q
+  312  quit
+  313  exit
+  314  sudo apt-get install python-pip python-dev build-essential
+  315  sudo pip install --upgrade pip
+  316  sudo pip install --upgrade virtualenv
+  317  clear
+  318  hiistory
+  319  history
+  320  clear
+  321  cd Desktop/
+  322  ls
+  323  cd softwares/
+  324  ls
+  325  cd molprobity/
+  326  ls
+  327  cd MolProbity-master/
+  328  subl .
+  329  git status
+  330  ls
+  331  cd ~/Downloads/
+  332  s
+  333  l
+  334  ./reduce.3.23.130521.linuxi386 
+  335  cp ~/Desktop/project-se/filtered/1s5a.pdb ./
+  336  ls
+  337  ./reduce.3.23.130521.linuxi386 
+  338  ./reduce.3.23.130521.linuxi386 -BUILD 1s5a.pdb 
+  339  ./reduce.3.23.130521.linuxi386 -BUILD 1s5a.pdb > 1s5aH.pdb
+  340  cat 1s5aH.pdb 
+  341  clear
+  342  diff 1s5a.pdb 1s5aH.pdb 
+  343  sudo apt-get install meld
+  344  meld 1s5a.pdb 1s5aH.pdb 
+  345  history
+  346  cd ~/Desktop/project-se/
+  347  ls
+  348  mkdir filter01
+  349  cd filtered/
+  350  count=0; for f in *; cp "$f" ../filter01/; echo $count; count= $(($count+1)); done;  
+  351  count=0; for f in *; do cp "$f" ../filter01/; echo $count; count= $(($count+1)); done;  
+  352  count=0; for f in *; do cp "$f" ../filter01/; do echo $count; count= $(($count+1)); done;  
+  353  history
+  354  count=0; for f in *; do cp "$f" ../filter01/; echo $count; count= $(($count+1)); done;  
+  355  cd ../filter01
+  356  ls
+  357  for f in *; rm "$f"; done; 
+  358  for f in *; rm $f; done; 
+  359  rm -rf filter01/
+  360  ls
+  361  rm -rf ./
+  362  ls
+  363  rm ~/Desktop/project-se/filter01/
+  364  rm ~/Desktop/project-se/filter01
+  365  rm -rf ~/Desktop/project-se/filter01
+  366  ls
+  367  count=0; for f in *; do cp "$f" ../filter01/; echo $count; count=$(($count+1)); done;  
+  368  cd ../
+  369  cd filtered/
+  370  count=0; for f in *; do cp "$f" ../filter01/; echo $count; count=$(($count+1)); done;  
+  371  cd ../
+  372  mkdir filter01/
+  373  cd filtered/
+  374  count=0; for f in *; do cp "$f" ../filter01/; echo $count; count=$(($count+1)); done;  
+  375  cd ../filter01
+  376  mkdir ../filter02
+  377  cd ../
+  378  ls
+  379  cd filter01
+  380  ls | wc -l
+  381  count=0; for f in *.pdb; do ./reduce.3.23.130521.linuxi386 -BUILD $f > ../filter02/$f.hadded.pdb; echo $count; count=$(($count+1)); done;
+  382  exit
+  383  ./sublime
+  384  cd home/Desktop
+  385  cd home/
+  386  cd Desktop
+  387  cd home/
+  388  cd ~/
+  389  cd Desktop/project-se/hadded_copy/
+  390  cd Desktop
+  391  cd project-se/hadded_copy/
+  392  cd ~/
+  393  cd project-se/
+  394  cd Desktop
+  395  cd project-se/
+  396  do python se-h_bonds.py 
+  397  python ./se-h_bonds.py 
+  398  cd hadded_copy/
+  399  python ./se-h_bonds.py 
+  400  cd ../
+  401  python ./se-h_bonds.py 
+  402  python ./find_path.py 
+  403  python ./se-h_bonds.py 
+  404  ls
+  405  sudo apt-get install ttf-inconsolata
+  406  sudo apt-get install ttf-droid
+  407  sudo add-apt-repository ppa:snwh/pulp
+  408  sudo apt update
+  409  sudo apt-get install paper-gtk-theme paper-icon-theme
+  410  sudo apt-get install unity-tweak-tool gnome-tweak-tool
+  411  sudo apt install ubuntu-wallpapers-*
+  412  gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+  413  gsettings set com.canonical.Unity.Launcher launcher-position Up
+  414  gsettings set com.canonical.Unity.Launcher launcher-position Left
+  415  cd /usr/local
+  416  cd /usr/share
+  417  ls
+  418  gksu nautilus
+  419  sudo apt install gksu
+  420  apt-get update
+  421  sudo apt install gksu
+  422  gksu nautilus
+  423  refresh
+  424  man  xrefresh
+  425  xrefresh
+  426  sudo apt install gnome-tweak-tool
+  427  sudo chown -r aman-pc ~/.local
+  428  man chown
+  429  sudo chown aman-pc ~/.local
+  430  sudo chown aman ~/.local
+  431  sudo chown aman ~/usr
+  432  sudo chown aman usr/share
+  433  ./configure --prefix=/usr                         --sysconfdir=/etc                     --enable-broadway-backend             --enable-x11-backend                  --enable-wayland-backend && make
+  434  sudo add-apt-repository ppa:gnome3-team/gnome3
+  435  sudo apt-get update && sudo apt-get install gnome-shell ubuntu-gnome-desktop
+  436  gnome-shell —version
+  437  history
+  438  sudo apt install gnome-tweak-tool
+  439  sudo apt-get update
+  440  sudo apt install gnome-tweak-tool
+  441  sudo apt-get update 
+  442  cd Downloads
+  443  ls
+  444  dtrx PyMOL-2.0.6_0-Linux-x86_64.tar.bz2 
+  445  dtrx PyMOL-2.0.6_0-Linux-x86_64.tar.bz2  
+  446  ./PyMOL-2.0.6_0-Linux-x86_64/
+  447  sudo apt-get install subversion build-essential python-dev python-pmw libglew-dev   freeglut3-dev libpng-dev libfreetype6-dev libxml2-dev
+  448  sudo apt-get install pymol
+  449  cd tmp
+  450  cd /tmp
+  451  svn co svn://svn.code.sf.net/p/pymol/code/trunk/pymol
+  452  cd pymol/
+  453  python setup.py build
+  454  prefix=/opt/pymol-svn
+  455  modules=$prefix/modules
+  456  python2.7 setup.py build install     --home=$prefix     --install-lib=$modules     --install-scripts=$prefix
+  457  python2.7 setup.py build install --home
+  458  python2.7 setup.py build install \ --home=$prefix --install-lib=$modules --install-scripts=$prefix
+  459  python2.7 setup.py build install     --home=$prefix     --install-lib=$modules     --install-scripts=$prefix
+  460  history
+  461  cd Desktop/
+  462  ls
+  463  cd project-se/
+  464  ls
+  465  cd hadded_copy/
+  466  do python se-h_bonds.py 
+  467  python se-h_bonds.py 
+  468  vim output.txt 
+  469  clear
+  470  python se-h_bonds.py 
+  471  count=0; grep -rl " SEC " | while read f; do cp "$f" ../filteres/; echo $count; count=$(($count+1)) ; done;
+  472  man gerp
+  473  man grep
+  474  count=0; grep " SEC " | while read f; do cp "$f" ../filteres/; echo $count; count=$(($count+1)); done;
+  475  python se-h_bonds.py 
+  476  cd Desktop/Python\ Scripts/
+  477  python edX_01.py 
+  478  sudo apt-get install sublime
+  479  pip install sklearn
+  480  sudo apt-get install python3.6
+  481  sudo apt-get install python
+  482  apt-get update
+  483  sudo add-apt-repository ppa:jonathonf/python-3.6
+  484  sudo apt-get update
+  485  history
+  486  sudo apt-get update
+  487  sudo apt-get install python3.6
+  488  ls /usr/share/applications/sublime_text.desktop
+  489  ls /usr/share/applications/
+  490  subl /usr/share/applications/defaults.list
+  491  sudo apt-get install matplotlib, scipy, sklearn, numpy, pylab, 
+  492  python
+  493  sftp amanup@webhome.cc.iitk.ac.in
+  494  chrome
+  495  cd Desktop/project-se/hadded_copy/
+  496  python se-h_bonds.py 
+  497  wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
+  498  bash Anaconda3-4.2.0-Linux-x86_64.sh -b -p ~/anaconda
+  499  rm Anaconda3-4.2.0-Linux-x86_64.sh
+  500  echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
+  501  source .bashrc
+  502  conda update conda
+  503  bash Anaconda2-4.2.0-Linux-x86_64.sh -b -p ~/anaconda
+  504  rm Anaconda2-4.2.0-Linux-x86_64.sh
+  505  echo 'export PATH="~/anaconda/bin:$PATH"' >> ~/.bashrc 
+  506  source .bashrc
+  507  conda update conda
+  508  pip install -e requirements.txt 
+  509  ls
+  510  pip install -e requirements.txt 
+  511  ls
+  512  cat requirements.txt 
+  513  pip install -r requirements.txt 
+  514  python
+  515  python3
+  516  ifconfig
+  517  rkfill
+  518  rfkill
+  519  rfkill list
+  520  man ifconfig
+  521  ls
+  522  cd Downloads/
+  523  ls
+  524  tar -xvf pycharm-professional-2017.3.3.tar.gz 
+  525  ls
+  526  cd pycharm-2017.3.3/
+  527  ./bin/pycharm.sh 
+  528  bg %1
+  529  jobs
+  530  disown %1
+  531  jobs
+  532  python
+  533  htop
+  534  top
+  535  sudo apt uninstall gedit
+  536  sudo apt remove  gedit
+  537  subl /etc/gnome/defaults.list 
+  538  sudo sed -i 's/gedit.desktop/sublime-text-2.desktop/g' /etc/gnome/defaults.list  
+  539  pip install -r requirements.txt 
+  540  numpy
+  541  python
+  542  ln -fs /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py /usr/lib/python2.7/
+  543  sudo ln -fs /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py /usr/lib/python2.7/
+  544  python
+  545  conda install -f python
+  546  python
+  547  pip install numpy
+  548  pip install math
+  549  pip install --reinstall numpy
+  550  pip help install
+  551  pip install --force-reinstall numpy
+  552  pip uninstall numpy
+  553  pip help install
+  554  pip install
+  555  python
+  556  virtualenv
+  557  virtualenv env
+  558  . env/bin/activate
+  559  python --version
+  560  cd ..
+  561  python --version
+  562  which python
+  563  cd Project-SHY/
+  564  deactivate
+  565  which python
+  566  . env/bin/activate
+  567  echo $SHELL
+  568  pip install -r requirements.txt 
+  569  python
+  570  ls
+  571  git status
+  572  git add .gitignore 
+  573  git status
+  574  git add .
+  575  git status
+  576  git log
+  577  git commit -m "Created Atom and Protein class"
+  578  git status
+  579  git diff
+  580  git status
+  581  git add .
+  582  git status
+  583  git commit -m "Fix doc strings and formatting"
+  584  git remote -v
+  585  git branch
+  586  git push origin master 
+  587  git log
+  588  python
+  589  . env/bin/activate
+  590  python
+  591  python setup.py install
+  592  python
+  593  python shy/main.py 
+  594  python
+  595  python
+  596  python shy/main.py 
+  597  python shy/main.py /asdf
+  598  python shy/main.py ~/Desktop/rawdata/
+  599  ls ~/Desktop/rawdata/
+  600  clear
+  601  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  602  python
+  603  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  604  cd Desktop/project-se/finale_SeHBonds
+  605  ls
+  606  file 1d2i.pdb.hadded.pdb 
+  607  mimetype 1d2i.pdb.hadded.pdb 
+  608  sudo cp /usr/share/applications/sublime_text.desktop ~/.local/share/applications/sublime_text.desktop 
+  609  sudo update-desktop-database
+  610  sudo vi /usr/share/applications/evince-previewer.desktop 
+  611  sudo vi /usr/share/applications/evince.desktop 
+  612  sudo update-desktop-database
+  613  ls
+  614  cd 
+  615  cd PycharmProjects/
+  616  ls
+  617  rm untitled/ -r
+  618  cd Project-SHY/
+  619  ls
+  620  htop
+  621  . env/bin/activate
+  622  history
+  623  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  624  sudo apt install htop
+  625  killall charm
+  626  killall pycharm
+  627  top
+  628  q
+  629  ps -x
+  630  ps -x | grep pycharm
+  631  kill -9 5367
+  632  ps -x | grep pycharm.sh
+  633  ps -x | grep /bin/pycharm
+  634  ps -x | grep pycharm
+  635  kill -9 5681
+  636  kill -9 5421
+  637  ps -x | grep pycharm
+  638  kill -9 16921
+  639  ps -x | grep pycharm
+  640  killall terminal
+  641  killall gnome-terminal
+  642  ps -x | grep terminal
+  643  killall gnome-terminal-server
+  644  cd Desktop/project-se/hadded_copy/
+  645  ls
+  646  python se-h_bonds.py 
+  647  cd
+  648  cd PycharmProjects/Project-SHY/
+  649  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  650  . env/bin/activate
+  651  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  652  ulimit 
+  653  man ulimit
+  654  ulimit -n 50000
+  655  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  656  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/ | wc -l
+  657  cat ~/Desktop/project-se/finale_SeHBonds/4dth.pdb.hadded.pdb 
+  658  cat ~/Desktop/project-se/finale_SeHBonds/4dth.pdb.hadded.pdb | grep "MSE"
+  659  cat ~/Desktop/project-se/finale_SeHBonds/4dth.pdb.hadded.pdb
+  660  . env/bin/activate
+  661  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  662  cat ~/Desktop/project-se/finale_SeHBonds/4dth.pdb.hadded.pdb | grep "MSE"
+  663  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  664  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/ | wc -l
+  665  ls
+  666  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  667  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/ | wc -l
+  668  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  669  deactivate
+  670  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  671  find -type f -name "protein"
+  672  find -type f -name "protein*"
+  673  python
+  674  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  675  . env/bin/activate
+  676  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  677  python
+  678  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  679  . env/bin/activate
+  680  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  681  ls
+  682  ls shy/
+  683  git status
+  684  gd
+  685  git diff
+  686  git status
+  687  git diff
+  688  rm shy/*.pyc 
+  689  ls shy/
+  690  python shy/main.py ~/Desktop/project-se/finale_SeHBonds/
+  691  exit
+  692  python
+  693  charm
+  694  which charm
+  695  vim
+  696  sudo vim /usr/share/applications/pycharm.desktop
+  697  git status
+  698  git diff
+  699  git status
+  700  git add shy/protein.py 
+  701  git commit
+  702  clear
+  703  ls
+  704  git status
+  705  git add shy/main.py 
+  706  git commit -m "Find probable Hydrogen Selenium bonds"
+  707  git status
+  708  git push origin master 
+  709  git pull origin master 
+  710  cd ~/Desktop/Thesis-data/live/
+  711  grep -nr "3033   2"
+  712  grep -nr "*SE*MSE*3033   2"
+  713  grep -nr "**SE**MSE**3033   2"
+  714  grep -nr "**SE**3033   2"
+  715  grep -nr "*SE*3033   2"
+  716  grep -nr ".*SE.*MSE.*3033   2"
+  717  python
+  718  grep -nr "^CONECT[:space:]*"
+  719  grep -nr "^CONECT[[:space:]]*"
+  720  grep -nr "^CONECT[[:space:]]*$"
+  721  grep -nr "^CONECT.*$"
+  722  grep -nr "^CONECT\s*$"
+  723  echo "CONECT    " 
+  724  echo "CONECT    " | grep "^CONECT\s*$"
+  725  echo "CONECT    e" | grep "^CONECT\s*$"
+  726  echo "CONECT" | grep "^CONECT\s*$"
+  727  echo "CONECT         " | grep "^CONECT\s*$"
+  728  grep -nr "^CONECT\s*$"
+  729  python
+  730  ls
+  731  ls | wc -l
+  732  la | wc -l
+  733  la
+  734  ls -a
+  735  ls -A
+  736  ls -a
+  737  alias ls
+  738  which ls
+  739  /bin/ls -a
+  740  man ls
+  741  ls -h
+  742  ls -ah
+  743  history
+  744  history
+  745  ls
+  746  history
+  747  $ sudo apt-get install wkhtmltopdf
+  748  sudo apt-get install wkhtmltopdf
+  749  virtualenv /path/to/g4g-env
+  750  sudo pip3 install virtualenv
+  751  sudo apt-get install python3-pip
+  752  sudo pip3 install virtualenv
+  753  virtualenv venv
+  754  source venv/bin/activate
+  755  pip install beautifulsoup4
+  756  python g4g.py
+  757  python3 g4g.py
+  758  cd Downloads/
+  759  unzip GeeksForGeeksScrapper-master.zip 
+  760  python g4g.py
+  761  cd GeeksForGeeksScrapper-master/
+  762  python g4g.py
+  763  cd ../
+  764  pip install -r requirements.txt
+  765  cd GeeksForGeeksScrapper-master/
+  766  pip install -r requirements.txt
+  767  python g4g.py
+  768  5
+  769  python g4g.py
+  770  source venv/bin/activate
+  771  deactivate
+  772  history
+  773  source venv/bin/activate
+  774  deactivate 
+  775  exit
+  776  env/bin/activate
+  777  source venv/bin/activate
+  778  . env/bin/activate
+  779  python shy/main.py
+  780  python shy/main.py ~/Desktop/Thesis-data/7\ proteins\ with\ MSE/
+  781  python shy/main.py ~/Desktop/Thesis-data/live
+  782  sudo apt-get update
+  783  history
+  784  killall gnome-terminal-server 
+  785  python main.py 
+  786  . env/bin/activate
+  787  git commit -m "Find probable Hydrogen Selenium bonds"
+  788  git status
+  789  git add shy/main.py 
+  790  git commit -m "Find probable Hydrogen Selenium bonds"
+  791  git status
+  792  git diff
+  793  . env/bin/activate
+  794  python shy/main.py ~/Desktop/Thesis-data/8\ H_Bonds_Probable/
+  795  python shy/__init__.py ~/Desktop/Thesis-data/8\ H_Bonds_Probable/
+  796  killall gnome-terminal-server 
+  797  sudo apt-get update
+  798  . env/bin/activate
+  799  python ~/PycharmProjects/Project-SHY/shy/main.py 
+  800  python ~/PycharmProjects/Project-SHY/shy/main.py ~/Desktop/Thesis-data/live/
+  801  killall gnome-terminal-server 
+  802  . env/bin/activate
+  803  killall gnome-terminal-server 
+  804  history
+  805  history > log 
