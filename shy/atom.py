@@ -1,7 +1,6 @@
 from numpy import array, dot, arccos
 from numpy.linalg import norm
 
-
 class Atom:
     """ Represents location and residue number of an atom """
 

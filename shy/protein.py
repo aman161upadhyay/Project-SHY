@@ -1,6 +1,5 @@
 from atom import Atom
 
-
 class Protein:
     """
     Model for a protein.
@@ -23,6 +22,7 @@ class Protein:
         x = float(line[30:38].strip())
         y = float(line[38:46].strip())
         z = float(line[46:54].strip())
+    #    atom_name2 = line[12:16].strip()
         return Atom(residue_number, x, y, z)
 
     def contains_amino_acid(self, amino_acid_name):
