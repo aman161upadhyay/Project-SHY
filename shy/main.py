@@ -38,7 +38,7 @@ for protein in proteins:
         connected_atoms = protein.get_connected_atoms(se)
         proximal_oxygen = protein.get_proximal_atoms(se, "O", 4.0)
         proximal_nitrogen = protein.get_proximal_atoms(se, "N", 4.0)
-        proximal_hydrogen = protein.get_proximal_atoms(se, "H", 3.0)
+        proximal_hydrogen = protein.get_proximal_hydrogens(se, "H", 3.0)
 
         for hydrogen in proximal_hydrogen:
             try:
@@ -55,18 +55,18 @@ for protein in proteins:
                     bond_angle = Atom.get_bond_angles(hydrogen, se, oxygen)
                     if bond_angle >= numpy.pi / 2:
                         probable_hbond.append((protein.name, se.residue_number, hydrogen.residue_number,
-                                                oxygen.residue_number,
-                                                se.coordinates, hydrogen.coordinates, oxygen.coordinates))
+                                               oxygen.residue_number,
+                                               se.coordinates, hydrogen.coordinates, oxygen.coordinates))
 
             for nitrogen in proximal_nitrogen:
                 if Atom.distance(hydrogen, nitrogen) <= 1.1:
                     bond_angle = Atom.get_bond_angles(hydrogen, se, nitrogen)
                     if bond_angle >= numpy.pi / 2:
                         probable_hbond.append((protein.name, se.residue_number, hydrogen.residue_number,
-                                                nitrogen.residue_number,
-                                                se.coordinates, hydrogen.coordinates, nitrogen.coordinates))
+                                               nitrogen.residue_number,
+                                               se.coordinates, hydrogen.coordinates, nitrogen.coordinates))
 
-    sys.stdout = open('output_02.txt', 'a')
+    sys.stdout = open('output_04.txt', 'a')
     print("file_no", count)
     count += 1
     print("Analyzing " + protein.name)

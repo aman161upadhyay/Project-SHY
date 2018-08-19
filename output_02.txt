@@ -1,0 +1,3909 @@
+('file_no', 1)
+Analyzing 1d2i
+2
+('file_no', 2)
+Analyzing 1d8w
+2
+('file_no', 3)
+Analyzing 1dfm
+4
+('file_no', 4)
+Analyzing 1dul
+4
+('file_no', 5)
+Analyzing 1dus
+4
+('file_no', 6)
+Analyzing 1dwk
+4
+('file_no', 7)
+Analyzing 1dyp
+4
+('file_no', 8)
+Analyzing 1eaq
+4
+('file_no', 9)
+Analyzing 1f1e
+4
+('file_no', 10)
+Analyzing 1g2y
+4
+('file_no', 11)
+Analyzing 1hxi
+4
+('file_no', 12)
+Analyzing 1jy1
+4
+('file_no', 13)
+Analyzing 1k77
+4
+('file_no', 14)
+Analyzing 1kko
+6
+('file_no', 15)
+Analyzing 1kll
+6
+('file_no', 16)
+Analyzing 1kq6
+6
+('file_no', 17)
+Analyzing 1lj8
+6
+('file_no', 18)
+Analyzing 1mkz
+6
+('file_no', 19)
+Analyzing 1mwq
+6
+('file_no', 20)
+Analyzing 1n57
+6
+('file_no', 21)
+Analyzing 1nc7
+6
+('file_no', 22)
+Analyzing 1ns5
+6
+('file_no', 23)
+Analyzing 1nxu
+6
+('file_no', 24)
+Analyzing 1nz0
+6
+('file_no', 25)
+Analyzing 1o1y
+6
+('file_no', 26)
+Analyzing 1o2d
+8
+('file_no', 27)
+Analyzing 1o3u
+8
+('file_no', 28)
+Analyzing 1o9g
+8
+('file_no', 29)
+Analyzing 1ojh
+8
+('file_no', 30)
+Analyzing 1oq1
+8
+('file_no', 31)
+Analyzing 1oru
+8
+('file_no', 32)
+Analyzing 1p3d
+8
+('file_no', 33)
+Analyzing 1pbj
+8
+('file_no', 34)
+Analyzing 1pmh
+8
+('file_no', 35)
+Analyzing 1q8d
+8
+('file_no', 36)
+Analyzing 1qtp
+8
+('file_no', 37)
+Analyzing 1qwr
+8
+('file_no', 38)
+Analyzing 1r5l
+8
+('file_no', 39)
+Analyzing 1rw1
+8
+('file_no', 40)
+Analyzing 1rxq
+8
+('file_no', 41)
+Analyzing 1s5a
+8
+('file_no', 42)
+Analyzing 1s99
+8
+('file_no', 43)
+Analyzing 1s9u
+8
+('file_no', 44)
+Analyzing 1sbx
+8
+('file_no', 45)
+Analyzing 1sfx
+8
+('file_no', 46)
+Analyzing 1t07
+8
+('file_no', 47)
+Analyzing 1t6t
+8
+('file_no', 48)
+Analyzing 1te2
+8
+('file_no', 49)
+Analyzing 1twd
+8
+('file_no', 50)
+Analyzing 1u0k
+8
+('file_no', 51)
+Analyzing 1u14
+8
+('file_no', 52)
+Analyzing 1u69
+12
+('file_no', 53)
+Analyzing 1u7g
+12
+('file_no', 54)
+Analyzing 1u7i
+12
+('file_no', 55)
+Analyzing 1u9d
+12
+('file_no', 56)
+Analyzing 1ukk
+12
+('file_no', 57)
+Analyzing 1upg
+12
+('file_no', 58)
+Analyzing 1uuj
+12
+('file_no', 59)
+Analyzing 1vjv
+12
+('file_no', 60)
+Analyzing 1vk8
+12
+('file_no', 61)
+Analyzing 1vkf
+12
+('file_no', 62)
+Analyzing 1vla
+13
+('file_no', 63)
+Analyzing 1vly
+13
+('file_no', 64)
+Analyzing 1vmg
+13
+('file_no', 65)
+Analyzing 1vp8
+13
+('file_no', 66)
+Analyzing 1vpd
+13
+('file_no', 67)
+Analyzing 1vpm
+13
+('file_no', 68)
+Analyzing 1vpr
+13
+('file_no', 69)
+Analyzing 1vqs
+13
+('file_no', 70)
+Analyzing 1vr8
+13
+('file_no', 71)
+Analyzing 1w0h
+13
+('file_no', 72)
+Analyzing 1w2w
+14
+('file_no', 73)
+Analyzing 1w9a
+14
+('file_no', 74)
+Analyzing 1wdv
+14
+('file_no', 75)
+Analyzing 1weh
+16
+('file_no', 76)
+Analyzing 1whz
+16
+('file_no', 77)
+Analyzing 1wwi
+16
+('file_no', 78)
+Analyzing 1x7d
+16
+('file_no', 79)
+Analyzing 1x7v
+16
+('file_no', 80)
+Analyzing 1xdn
+16
+('file_no', 81)
+Analyzing 1xqa
+16
+('file_no', 82)
+Analyzing 1xsv
+16
+('file_no', 83)
+Analyzing 1y0b
+16
+('file_no', 84)
+Analyzing 1y0k
+16
+('file_no', 85)
+Analyzing 1y0u
+16
+('file_no', 86)
+Analyzing 1y2m
+16
+('file_no', 87)
+Analyzing 1y7r
+16
+('file_no', 88)
+Analyzing 1ye8
+16
+('file_no', 89)
+Analyzing 1yle
+16
+('file_no', 90)
+Analyzing 1yll
+16
+('file_no', 91)
+Analyzing 1yqh
+16
+('file_no', 92)
+Analyzing 1yx1
+16
+('file_no', 93)
+Analyzing 1z0n
+16
+('file_no', 94)
+Analyzing 1z67
+16
+('file_no', 95)
+Analyzing 1z6m
+16
+('file_no', 96)
+Analyzing 1z72
+16
+('file_no', 97)
+Analyzing 1z7a
+16
+('file_no', 98)
+Analyzing 1z9t
+17
+('file_no', 99)
+Analyzing 1zce
+18
+('file_no', 100)
+Analyzing 1zgk
+18
+('file_no', 101)
+Analyzing 1zki
+18
+('file_no', 102)
+Analyzing 1zkp
+18
+('file_no', 103)
+Analyzing 1zma
+18
+('file_no', 104)
+Analyzing 2a3n
+18
+('file_no', 105)
+Analyzing 2ah5
+18
+('file_no', 106)
+Analyzing 2asf
+18
+('file_no', 107)
+Analyzing 2axc
+18
+('file_no', 108)
+Analyzing 2b0v
+18
+('file_no', 109)
+Analyzing 2b4v
+19
+('file_no', 110)
+Analyzing 2b69
+19
+('file_no', 111)
+Analyzing 2b8m
+19
+('file_no', 112)
+Analyzing 2bdr
+19
+('file_no', 113)
+Analyzing 2bu3
+19
+('file_no', 114)
+Analyzing 2bz1
+19
+('file_no', 115)
+Analyzing 2c2i
+19
+('file_no', 116)
+Analyzing 2c60
+19
+('file_no', 117)
+Analyzing 2cm5
+19
+('file_no', 118)
+Analyzing 2cx1
+19
+('file_no', 119)
+Analyzing 2cxh
+19
+('file_no', 120)
+Analyzing 2cxx
+19
+('file_no', 121)
+Analyzing 2cxy
+19
+('file_no', 122)
+Analyzing 2dby
+19
+('file_no', 123)
+Analyzing 2deb
+21
+('file_no', 124)
+Analyzing 2dtc
+21
+('file_no', 125)
+Analyzing 2duy
+21
+('file_no', 126)
+Analyzing 2dxa
+21
+('file_no', 127)
+Analyzing 2dxq
+21
+('file_no', 128)
+Analyzing 2e1v
+21
+('file_no', 129)
+Analyzing 2etv
+21
+('file_no', 130)
+Analyzing 2f4q
+21
+('file_no', 131)
+Analyzing 2f62
+21
+('file_no', 132)
+Analyzing 2f9f
+21
+('file_no', 133)
+Analyzing 2f9h
+21
+('file_no', 134)
+Analyzing 2fb6
+21
+('file_no', 135)
+Analyzing 2fex
+21
+('file_no', 136)
+Analyzing 2fg1
+21
+('file_no', 137)
+Analyzing 2fhp
+21
+('file_no', 138)
+Analyzing 2fqp
+21
+('file_no', 139)
+Analyzing 2fsq
+21
+('file_no', 140)
+Analyzing 2fsr
+21
+('file_no', 141)
+Analyzing 2ftr
+21
+('file_no', 142)
+Analyzing 2fup
+21
+('file_no', 143)
+Analyzing 2fur
+21
+('file_no', 144)
+Analyzing 2g0w
+21
+('file_no', 145)
+Analyzing 2g7s
+22
+('file_no', 146)
+Analyzing 2g8s
+22
+('file_no', 147)
+Analyzing 2gfq
+22
+('file_no', 148)
+Analyzing 2ghs
+22
+('file_no', 149)
+Analyzing 2gkp
+22
+('file_no', 150)
+Analyzing 2glz
+22
+('file_no', 151)
+Analyzing 2gmq
+22
+('file_no', 152)
+Analyzing 2gpi
+22
+('file_no', 153)
+Analyzing 2gs5
+22
+('file_no', 154)
+Analyzing 2guh
+22
+('file_no', 155)
+Analyzing 2gwg
+22
+('file_no', 156)
+Analyzing 2h1t
+22
+('file_no', 157)
+Analyzing 2hbw
+22
+('file_no', 158)
+Analyzing 2hcf
+22
+('file_no', 159)
+Analyzing 2hdo
+22
+('file_no', 160)
+Analyzing 2hhg
+22
+('file_no', 161)
+Analyzing 2hi0
+22
+('file_no', 162)
+Analyzing 2hiy
+22
+('file_no', 163)
+Analyzing 2hkv
+22
+('file_no', 164)
+Analyzing 2hng
+22
+('file_no', 165)
+Analyzing 2hsj
+22
+('file_no', 166)
+Analyzing 2htd
+22
+('file_no', 167)
+Analyzing 2huh
+22
+('file_no', 168)
+Analyzing 2huj
+22
+('file_no', 169)
+Analyzing 2hx0
+22
+('file_no', 170)
+Analyzing 2hxi
+22
+('file_no', 171)
+Analyzing 2hxv
+23
+('file_no', 172)
+Analyzing 2hyt
+23
+('file_no', 173)
+Analyzing 2hzq
+24
+('file_no', 174)
+Analyzing 2i3d
+24
+('file_no', 175)
+Analyzing 2i51
+24
+('file_no', 176)
+Analyzing 2i5i
+26
+('file_no', 177)
+Analyzing 2i5u
+26
+('file_no', 178)
+Analyzing 2i6h
+27
+('file_no', 179)
+Analyzing 2i71
+27
+('file_no', 180)
+Analyzing 2i7g
+27
+('file_no', 181)
+Analyzing 2i8d
+27
+('file_no', 182)
+Analyzing 2i9w
+27
+('file_no', 183)
+Analyzing 2i9x
+27
+('file_no', 184)
+Analyzing 2ia7
+27
+('file_no', 185)
+Analyzing 2iai
+27
+('file_no', 186)
+Analyzing 2iay
+27
+('file_no', 187)
+Analyzing 2ibd
+27
+('file_no', 188)
+Analyzing 2icu
+27
+('file_no', 189)
+Analyzing 2id3
+27
+('file_no', 190)
+Analyzing 2ikb
+27
+('file_no', 191)
+Analyzing 2ikk
+27
+('file_no', 192)
+Analyzing 2imh
+27
+('file_no', 193)
+Analyzing 2imj
+27
+('file_no', 194)
+Analyzing 2isb
+28
+('file_no', 195)
+Analyzing 2it9
+28
+('file_no', 196)
+Analyzing 2j43
+30
+('file_no', 197)
+Analyzing 2nlv
+30
+('file_no', 198)
+Analyzing 2nn5
+30
+('file_no', 199)
+Analyzing 2np5
+30
+('file_no', 200)
+Analyzing 2nqw
+30
+('file_no', 201)
+Analyzing 2nr7
+30
+('file_no', 202)
+Analyzing 2nrk
+30
+('file_no', 203)
+Analyzing 2nxf
+30
+('file_no', 204)
+Analyzing 2nyi
+30
+('file_no', 205)
+Analyzing 2o0m
+30
+('file_no', 206)
+Analyzing 2o1a
+30
+('file_no', 207)
+Analyzing 2o1q
+30
+('file_no', 208)
+Analyzing 2o2x
+30
+('file_no', 209)
+Analyzing 2o3f
+30
+('file_no', 210)
+Analyzing 2o62
+30
+('file_no', 211)
+Analyzing 2o8q
+30
+('file_no', 212)
+Analyzing 2oa2
+30
+('file_no', 213)
+Analyzing 2ob0
+30
+('file_no', 214)
+Analyzing 2ob5
+30
+('file_no', 215)
+Analyzing 2obp
+30
+('file_no', 216)
+Analyzing 2od4
+30
+('file_no', 217)
+Analyzing 2od5
+31
+('file_no', 218)
+Analyzing 2odi
+31
+('file_no', 219)
+Analyzing 2odk
+31
+('file_no', 220)
+Analyzing 2oh1
+31
+('file_no', 221)
+Analyzing 2oik
+31
+('file_no', 222)
+Analyzing 2okf
+31
+('file_no', 223)
+Analyzing 2okg
+31
+('file_no', 224)
+Analyzing 2onf
+31
+('file_no', 225)
+Analyzing 2ooc
+31
+('file_no', 226)
+Analyzing 2ook
+31
+('file_no', 227)
+Analyzing 2oqg
+31
+('file_no', 228)
+Analyzing 2oqz
+31
+('file_no', 229)
+Analyzing 2ou5
+31
+('file_no', 230)
+Analyzing 2ou6
+31
+('file_no', 231)
+Analyzing 2ox7
+31
+('file_no', 232)
+Analyzing 2oyo
+31
+('file_no', 233)
+Analyzing 2ozh
+31
+('file_no', 234)
+Analyzing 2ozj
+31
+('file_no', 235)
+Analyzing 2ozt
+31
+('file_no', 236)
+Analyzing 2ozv
+31
+('file_no', 237)
+Analyzing 2p0n
+31
+('file_no', 238)
+Analyzing 2p0s
+31
+('file_no', 239)
+Analyzing 2p12
+31
+('file_no', 240)
+Analyzing 2p17
+31
+('file_no', 241)
+Analyzing 2p2s
+31
+('file_no', 242)
+Analyzing 2p3p
+31
+('file_no', 243)
+Analyzing 2p58
+31
+('file_no', 244)
+Analyzing 2p7i
+31
+('file_no', 245)
+Analyzing 2p8g
+31
+('file_no', 246)
+Analyzing 2p8i
+31
+('file_no', 247)
+Analyzing 2p97
+31
+('file_no', 248)
+Analyzing 2pc1
+31
+('file_no', 249)
+Analyzing 2peb
+31
+('file_no', 250)
+Analyzing 2pli
+31
+('file_no', 251)
+Analyzing 2pn0
+31
+('file_no', 252)
+Analyzing 2pq7
+31
+('file_no', 253)
+Analyzing 2pqv
+31
+('file_no', 254)
+Analyzing 2pr7
+31
+('file_no', 255)
+Analyzing 2prv
+31
+('file_no', 256)
+Analyzing 2pyq
+31
+('file_no', 257)
+Analyzing 2pyx
+31
+('file_no', 258)
+Analyzing 2q03
+31
+('file_no', 259)
+Analyzing 2q0t
+31
+('file_no', 260)
+Analyzing 2q0y
+31
+('file_no', 261)
+Analyzing 2q24
+31
+('file_no', 262)
+Analyzing 2q2f
+31
+('file_no', 263)
+Analyzing 2q3v
+31
+('file_no', 264)
+Analyzing 2q3x
+31
+('file_no', 265)
+Analyzing 2q48
+31
+('file_no', 266)
+Analyzing 2q4m
+32
+('file_no', 267)
+Analyzing 2q4w
+32
+('file_no', 268)
+Analyzing 2q4z
+32
+('file_no', 269)
+Analyzing 2qe8
+32
+('file_no', 270)
+Analyzing 2qeu
+32
+('file_no', 271)
+Analyzing 2qgu
+32
+('file_no', 272)
+Analyzing 2qhp
+32
+('file_no', 273)
+Analyzing 2qhq
+33
+('file_no', 274)
+Analyzing 2qib
+33
+('file_no', 275)
+Analyzing 2qik
+33
+('file_no', 276)
+Analyzing 2qip
+33
+('file_no', 277)
+Analyzing 2qiw
+33
+('file_no', 278)
+Analyzing 2qjw
+33
+('file_no', 279)
+Analyzing 2qjz
+33
+('file_no', 280)
+Analyzing 2ql8
+33
+('file_no', 281)
+Analyzing 2qlw
+33
+('file_no', 282)
+Analyzing 2qm8
+33
+('file_no', 283)
+Analyzing 2qml
+33
+('file_no', 284)
+Analyzing 2qng
+33
+('file_no', 285)
+Analyzing 2qni
+33
+('file_no', 286)
+Analyzing 2qnk
+34
+('file_no', 287)
+Analyzing 2qnl
+34
+('file_no', 288)
+Analyzing 2qnt
+34
+('file_no', 289)
+Analyzing 2qpx
+36
+('file_no', 290)
+Analyzing 2qr6
+36
+('file_no', 291)
+Analyzing 2qru
+36
+('file_no', 292)
+Analyzing 2qs9
+36
+('file_no', 293)
+Analyzing 2qsb
+36
+('file_no', 294)
+Analyzing 2qsi
+36
+('file_no', 295)
+Analyzing 2qsw
+36
+('file_no', 296)
+Analyzing 2qw5
+36
+('file_no', 297)
+Analyzing 2qwu
+37
+('file_no', 298)
+Analyzing 2qzc
+37
+('file_no', 299)
+Analyzing 2qzu
+37
+('file_no', 300)
+Analyzing 2r01
+37
+('file_no', 301)
+Analyzing 2r0x
+37
+('file_no', 302)
+Analyzing 2r0y
+37
+('file_no', 303)
+Analyzing 2r1i
+37
+('file_no', 304)
+Analyzing 2r2c
+37
+('file_no', 305)
+Analyzing 2r2z
+37
+('file_no', 306)
+Analyzing 2r3b
+37
+('file_no', 307)
+Analyzing 2r48
+37
+('file_no', 308)
+Analyzing 2r4i
+37
+('file_no', 309)
+Analyzing 2r6v
+37
+('file_no', 310)
+Analyzing 2r78
+37
+('file_no', 311)
+Analyzing 2ra9
+37
+('file_no', 312)
+Analyzing 2raf
+37
+('file_no', 313)
+Analyzing 2ras
+37
+('file_no', 314)
+Analyzing 2rb7
+39
+('file_no', 315)
+Analyzing 2rbd
+39
+('file_no', 316)
+Analyzing 2rbg
+39
+('file_no', 317)
+Analyzing 2rdc
+39
+('file_no', 318)
+Analyzing 2re2
+39
+('file_no', 319)
+Analyzing 2rff
+39
+('file_no', 320)
+Analyzing 2rfq
+39
+('file_no', 321)
+Analyzing 2rfr
+39
+('file_no', 322)
+Analyzing 2rgq
+39
+('file_no', 323)
+Analyzing 2rhf
+39
+('file_no', 324)
+Analyzing 2rhm
+39
+('file_no', 325)
+Analyzing 2ril
+39
+('file_no', 326)
+Analyzing 2rld
+39
+('file_no', 327)
+Analyzing 2uvk
+39
+('file_no', 328)
+Analyzing 2v4x
+39
+('file_no', 329)
+Analyzing 2vcl
+39
+('file_no', 330)
+Analyzing 2vpt
+39
+('file_no', 331)
+Analyzing 2vxz
+39
+('file_no', 332)
+Analyzing 2w1s
+39
+('file_no', 333)
+Analyzing 2w7a
+39
+('file_no', 334)
+Analyzing 2wlr
+39
+('file_no', 335)
+Analyzing 2wnf
+39
+('file_no', 336)
+Analyzing 2woy
+39
+('file_no', 337)
+Analyzing 2wq4
+39
+('file_no', 338)
+Analyzing 2wte
+39
+('file_no', 339)
+Analyzing 2wzv
+39
+('file_no', 340)
+Analyzing 2x3g
+39
+('file_no', 341)
+Analyzing 2x46
+39
+('file_no', 342)
+Analyzing 2x9o
+39
+('file_no', 343)
+Analyzing 2x9x
+39
+('file_no', 344)
+Analyzing 2x9z
+39
+('file_no', 345)
+Analyzing 2xqo
+39
+('file_no', 346)
+Analyzing 2xtp
+39
+('file_no', 347)
+Analyzing 2y0o
+39
+('file_no', 348)
+Analyzing 2y27
+39
+('file_no', 349)
+Analyzing 2y28
+39
+('file_no', 350)
+Analyzing 2yh9
+40
+('file_no', 351)
+Analyzing 2ymv
+40
+('file_no', 352)
+Analyzing 2yvt
+40
+('file_no', 353)
+Analyzing 2ywi
+40
+('file_no', 354)
+Analyzing 2ywl
+41
+('file_no', 355)
+Analyzing 2yxx
+41
+('file_no', 356)
+Analyzing 2z2n
+41
+('file_no', 357)
+Analyzing 2zca
+41
+('file_no', 358)
+Analyzing 2zpl
+41
+('file_no', 359)
+Analyzing 2zpm
+41
+('file_no', 360)
+Analyzing 3a1s
+41
+('file_no', 361)
+Analyzing 3aj3
+41
+('file_no', 362)
+Analyzing 3b2y
+41
+('file_no', 363)
+Analyzing 3b4q
+41
+('file_no', 364)
+Analyzing 3b5e
+41
+('file_no', 365)
+Analyzing 3b5o
+41
+('file_no', 366)
+Analyzing 3b79
+41
+('file_no', 367)
+Analyzing 3b7c
+41
+('file_no', 368)
+Analyzing 3b8b
+41
+('file_no', 369)
+Analyzing 3b8l
+41
+('file_no', 370)
+Analyzing 3b9t
+41
+('file_no', 371)
+Analyzing 3ba3
+41
+('file_no', 372)
+Analyzing 3bb9
+47
+('file_no', 373)
+Analyzing 3bcw
+47
+('file_no', 374)
+Analyzing 3bcy
+47
+('file_no', 375)
+Analyzing 3bde
+47
+('file_no', 376)
+Analyzing 3bdi
+47
+('file_no', 377)
+Analyzing 3bdv
+47
+('file_no', 378)
+Analyzing 3bed
+48
+('file_no', 379)
+Analyzing 3bem
+48
+('file_no', 380)
+Analyzing 3bfm
+48
+('file_no', 381)
+Analyzing 3bgu
+48
+('file_no', 382)
+Analyzing 3bhd
+48
+('file_no', 383)
+Analyzing 3bhn
+48
+('file_no', 384)
+Analyzing 3bhq
+48
+('file_no', 385)
+Analyzing 3bi7
+48
+('file_no', 386)
+Analyzing 3bjn
+48
+('file_no', 387)
+Analyzing 3bkw
+48
+('file_no', 388)
+Analyzing 3bln
+48
+('file_no', 389)
+Analyzing 3blz
+48
+('file_no', 390)
+Analyzing 3bm3
+48
+('file_no', 391)
+Analyzing 3bm7
+48
+('file_no', 392)
+Analyzing 3bos
+48
+('file_no', 393)
+Analyzing 3bpk
+48
+('file_no', 394)
+Analyzing 3bpt
+49
+('file_no', 395)
+Analyzing 3brc
+49
+('file_no', 396)
+Analyzing 3bs6
+49
+('file_no', 397)
+Analyzing 3buu
+49
+('file_no', 398)
+Analyzing 3bv8
+49
+('file_no', 399)
+Analyzing 3bwl
+49
+('file_no', 400)
+Analyzing 3bwv
+49
+('file_no', 401)
+Analyzing 3bwx
+49
+('file_no', 402)
+Analyzing 3byq
+49
+('file_no', 403)
+Analyzing 3c0c
+49
+('file_no', 404)
+Analyzing 3c1q
+49
+('file_no', 405)
+Analyzing 3c24
+50
+('file_no', 406)
+Analyzing 3c4b
+50
+('file_no', 407)
+Analyzing 3c8c
+50
+('file_no', 408)
+Analyzing 3c8l
+50
+('file_no', 409)
+Analyzing 3c8w
+50
+('file_no', 410)
+Analyzing 3can
+50
+('file_no', 411)
+Analyzing 3cc8
+50
+('file_no', 412)
+Analyzing 3ccg
+50
+('file_no', 413)
+Analyzing 3cec
+50
+('file_no', 414)
+Analyzing 3ch0
+50
+('file_no', 415)
+Analyzing 3ci6
+50
+('file_no', 416)
+Analyzing 3cje
+51
+('file_no', 417)
+Analyzing 3cjm
+51
+('file_no', 418)
+Analyzing 3cjy
+51
+('file_no', 419)
+Analyzing 3ck1
+51
+('file_no', 420)
+Analyzing 3ckm
+51
+('file_no', 421)
+Analyzing 3clm
+51
+('file_no', 422)
+Analyzing 3cnh
+51
+('file_no', 423)
+Analyzing 3cp0
+51
+('file_no', 424)
+Analyzing 3cvo
+51
+('file_no', 425)
+Analyzing 3cwr
+51
+('file_no', 426)
+Analyzing 3cxn
+51
+('file_no', 427)
+Analyzing 3czx
+51
+('file_no', 428)
+Analyzing 3d01
+51
+('file_no', 429)
+Analyzing 3d02
+51
+('file_no', 430)
+Analyzing 3d0f
+51
+('file_no', 431)
+Analyzing 3d0j
+51
+('file_no', 432)
+Analyzing 3d1p
+51
+('file_no', 433)
+Analyzing 3d33
+51
+('file_no', 434)
+Analyzing 3d4e
+51
+('file_no', 435)
+Analyzing 3d5p
+51
+('file_no', 436)
+Analyzing 3d7i
+51
+('file_no', 437)
+Analyzing 3dao
+51
+('file_no', 438)
+Analyzing 3db2
+51
+('file_no', 439)
+Analyzing 3db7
+51
+('file_no', 440)
+Analyzing 3dcy
+51
+('file_no', 441)
+Analyzing 3dcz
+51
+('file_no', 442)
+Analyzing 3dd7
+51
+('file_no', 443)
+Analyzing 3ddj
+51
+('file_no', 444)
+Analyzing 3dew
+51
+('file_no', 445)
+Analyzing 3df8
+51
+('file_no', 446)
+Analyzing 3dff
+51
+('file_no', 447)
+Analyzing 3di4
+51
+('file_no', 448)
+Analyzing 3dlc
+51
+('file_no', 449)
+Analyzing 3dmc
+51
+('file_no', 450)
+Analyzing 3dmn
+51
+('file_no', 451)
+Analyzing 3dn7
+51
+('file_no', 452)
+Analyzing 3dnu
+51
+('file_no', 453)
+Analyzing 3dou
+51
+('file_no', 454)
+Analyzing 3dqp
+51
+('file_no', 455)
+Analyzing 3ds8
+51
+('file_no', 456)
+Analyzing 3dsb
+51
+('file_no', 457)
+Analyzing 3dtt
+51
+('file_no', 458)
+Analyzing 3dup
+51
+('file_no', 459)
+Analyzing 3dv9
+51
+('file_no', 460)
+Analyzing 3dza
+51
+('file_no', 461)
+Analyzing 3e03
+51
+('file_no', 462)
+Analyzing 3e0x
+51
+('file_no', 463)
+Analyzing 3e0z
+51
+('file_no', 464)
+Analyzing 3e10
+53
+('file_no', 465)
+Analyzing 3e11
+53
+('file_no', 466)
+Analyzing 3e23
+53
+('file_no', 467)
+Analyzing 3e48
+53
+('file_no', 468)
+Analyzing 3e4v
+53
+('file_no', 469)
+Analyzing 3e6q
+65
+('file_no', 470)
+Analyzing 3e8o
+65
+('file_no', 471)
+Analyzing 3ebt
+65
+('file_no', 472)
+Analyzing 3eby
+66
+('file_no', 473)
+Analyzing 3ec4
+66
+('file_no', 474)
+Analyzing 3ec6
+67
+('file_no', 475)
+Analyzing 3edo
+67
+('file_no', 476)
+Analyzing 3eer
+67
+('file_no', 477)
+Analyzing 3ef8
+67
+('file_no', 478)
+Analyzing 3ejv
+67
+('file_no', 479)
+Analyzing 3ek3
+67
+('file_no', 480)
+Analyzing 3ekg
+67
+('file_no', 481)
+Analyzing 3eo6
+67
+('file_no', 482)
+Analyzing 3eo7
+67
+('file_no', 483)
+Analyzing 3eqx
+69
+('file_no', 484)
+Analyzing 3er7
+69
+('file_no', 485)
+Analyzing 3es4
+71
+('file_no', 486)
+Analyzing 3etn
+75
+('file_no', 487)
+Analyzing 3eur
+75
+('file_no', 488)
+Analyzing 3ewn
+75
+('file_no', 489)
+Analyzing 3exn
+75
+('file_no', 490)
+Analyzing 3ey8
+75
+('file_no', 491)
+Analyzing 3f0h
+76
+('file_no', 492)
+Analyzing 3f14
+76
+('file_no', 493)
+Analyzing 3f2z
+76
+('file_no', 494)
+Analyzing 3f3k
+76
+('file_no', 495)
+Analyzing 3f40
+76
+('file_no', 496)
+Analyzing 3f42
+76
+('file_no', 497)
+Analyzing 3f43
+76
+('file_no', 498)
+Analyzing 3f44
+76
+('file_no', 499)
+Analyzing 3f4a
+76
+('file_no', 500)
+Analyzing 3f5r
+76
+('file_no', 501)
+Analyzing 3f67
+76
+('file_no', 502)
+Analyzing 3f7e
+76
+('file_no', 503)
+Analyzing 3f7x
+76
+('file_no', 504)
+Analyzing 3f8x
+76
+('file_no', 505)
+Analyzing 3f9s
+76
+('file_no', 506)
+Analyzing 3fcn
+76
+('file_no', 507)
+Analyzing 3fd3
+76
+('file_no', 508)
+Analyzing 3fdh
+76
+('file_no', 509)
+Analyzing 3fdj
+76
+('file_no', 510)
+Analyzing 3fdx
+76
+('file_no', 511)
+Analyzing 3feu
+76
+('file_no', 512)
+Analyzing 3ff1
+76
+('file_no', 513)
+Analyzing 3ffr
+76
+('file_no', 514)
+Analyzing 3fg8
+76
+('file_no', 515)
+Analyzing 3fg9
+76
+('file_no', 516)
+Analyzing 3fge
+76
+('file_no', 517)
+Analyzing 3fgv
+76
+('file_no', 518)
+Analyzing 3fgy
+76
+('file_no', 519)
+Analyzing 3fh1
+76
+('file_no', 520)
+Analyzing 3fia
+76
+('file_no', 521)
+Analyzing 3fj1
+76
+('file_no', 522)
+Analyzing 3fk8
+76
+('file_no', 523)
+Analyzing 3fka
+76
+('file_no', 524)
+Analyzing 3fla
+76
+('file_no', 525)
+Analyzing 3fm2
+76
+('file_no', 526)
+Analyzing 3fmc
+76
+('file_no', 527)
+Analyzing 3fnc
+76
+('file_no', 528)
+Analyzing 3foj
+76
+('file_no', 529)
+Analyzing 3fsd
+76
+('file_no', 530)
+Analyzing 3fss
+76
+('file_no', 531)
+Analyzing 3fwz
+76
+('file_no', 532)
+Analyzing 3fxa
+76
+('file_no', 533)
+Analyzing 3fyb
+76
+('file_no', 534)
+Analyzing 3fyn
+76
+('file_no', 535)
+Analyzing 3fz4
+76
+('file_no', 536)
+Analyzing 3g0k
+76
+('file_no', 537)
+Analyzing 3g0t
+76
+('file_no', 538)
+Analyzing 3g14
+76
+('file_no', 539)
+Analyzing 3g16
+78
+('file_no', 540)
+Analyzing 3g1j
+78
+('file_no', 541)
+Analyzing 3g36
+78
+('file_no', 542)
+Analyzing 3g5j
+78
+('file_no', 543)
+Analyzing 3g5s
+78
+('file_no', 544)
+Analyzing 3g5t
+78
+('file_no', 545)
+Analyzing 3g68
+80
+('file_no', 546)
+Analyzing 3g7q
+81
+('file_no', 547)
+Analyzing 3g7r
+81
+('file_no', 548)
+Analyzing 3gag
+81
+('file_no', 549)
+Analyzing 3gbw
+81
+('file_no', 550)
+Analyzing 3gby
+81
+('file_no', 551)
+Analyzing 3gf6
+82
+('file_no', 552)
+Analyzing 3gfa
+82
+('file_no', 553)
+Analyzing 3ghj
+82
+('file_no', 554)
+Analyzing 3giu
+82
+('file_no', 555)
+Analyzing 3giw
+82
+('file_no', 556)
+Analyzing 3gjy
+82
+('file_no', 557)
+Analyzing 3gk6
+82
+('file_no', 558)
+Analyzing 3gn6
+82
+('file_no', 559)
+Analyzing 3gnl
+82
+('file_no', 560)
+Analyzing 3go5
+84
+('file_no', 561)
+Analyzing 3go9
+85
+('file_no', 562)
+Analyzing 3goh
+85
+('file_no', 563)
+Analyzing 3gr3
+86
+('file_no', 564)
+Analyzing 3grd
+86
+('file_no', 565)
+Analyzing 3gs9
+86
+('file_no', 566)
+Analyzing 3gve
+88
+('file_no', 567)
+Analyzing 3gxh
+88
+('file_no', 568)
+Analyzing 3gy9
+88
+('file_no', 569)
+Analyzing 3gyd
+88
+('file_no', 570)
+Analyzing 3gyk
+88
+('file_no', 571)
+Analyzing 3gza
+88
+('file_no', 572)
+Analyzing 3gzb
+88
+('file_no', 573)
+Analyzing 3gzr
+88
+('file_no', 574)
+Analyzing 3h0n
+88
+('file_no', 575)
+Analyzing 3h2s
+88
+('file_no', 576)
+Analyzing 3h3h
+88
+('file_no', 577)
+Analyzing 3h3l
+88
+('file_no', 578)
+Analyzing 3h41
+88
+('file_no', 579)
+Analyzing 3h4o
+88
+('file_no', 580)
+Analyzing 3h50
+88
+('file_no', 581)
+Analyzing 3h51
+88
+('file_no', 582)
+Analyzing 3h6x
+88
+('file_no', 583)
+Analyzing 3h74
+88
+('file_no', 584)
+Analyzing 3h7c
+88
+('file_no', 585)
+Analyzing 3h8u
+88
+('file_no', 586)
+Analyzing 3h9m
+88
+('file_no', 587)
+Analyzing 3ha2
+88
+('file_no', 588)
+Analyzing 3hbm
+88
+('file_no', 589)
+Analyzing 3hdj
+90
+('file_no', 590)
+Analyzing 3hdo
+91
+('file_no', 591)
+Analyzing 3hdx
+91
+('file_no', 592)
+Analyzing 3hj4
+93
+('file_no', 593)
+Analyzing 3hlz
+93
+('file_no', 594)
+Analyzing 3hm4
+93
+('file_no', 595)
+Analyzing 3hmz
+93
+('file_no', 596)
+Analyzing 3hn0
+93
+('file_no', 597)
+Analyzing 3hn5
+93
+('file_no', 598)
+Analyzing 3hn7
+94
+('file_no', 599)
+Analyzing 3hoi
+94
+('file_no', 600)
+Analyzing 3hp7
+95
+('file_no', 601)
+Analyzing 3hqx
+95
+('file_no', 602)
+Analyzing 3hrp
+95
+('file_no', 603)
+Analyzing 3htn
+95
+('file_no', 604)
+Analyzing 3hu5
+95
+('file_no', 605)
+Analyzing 3hwu
+95
+('file_no', 606)
+Analyzing 3hx3
+95
+('file_no', 607)
+Analyzing 3hx8
+95
+('file_no', 608)
+Analyzing 3hyn
+95
+('file_no', 609)
+Analyzing 3hz6
+95
+('file_no', 610)
+Analyzing 3hzp
+95
+('file_no', 611)
+Analyzing 3i09
+95
+('file_no', 612)
+Analyzing 3i0y
+95
+('file_no', 613)
+Analyzing 3i0z
+96
+('file_no', 614)
+Analyzing 3i10
+96
+('file_no', 615)
+Analyzing 3i18
+96
+('file_no', 616)
+Analyzing 3i2v
+96
+('file_no', 617)
+Analyzing 3i4g
+96
+('file_no', 618)
+Analyzing 3i7m
+96
+('file_no', 619)
+Analyzing 3ib5
+96
+('file_no', 620)
+Analyzing 3ibz
+96
+('file_no', 621)
+Analyzing 3ic3
+96
+('file_no', 622)
+Analyzing 3ic4
+96
+('file_no', 623)
+Analyzing 3idu
+96
+('file_no', 624)
+Analyzing 3iee
+97
+('file_no', 625)
+Analyzing 3ihs
+97
+('file_no', 626)
+Analyzing 3iht
+97
+('file_no', 627)
+Analyzing 3ihv
+99
+('file_no', 628)
+Analyzing 3iib
+99
+('file_no', 629)
+Analyzing 3ijm
+99
+('file_no', 630)
+Analyzing 3ikb
+99
+('file_no', 631)
+Analyzing 3imk
+99
+('file_no', 632)
+Analyzing 3iqt
+99
+('file_no', 633)
+Analyzing 3ir4
+99
+('file_no', 634)
+Analyzing 3irb
+99
+('file_no', 635)
+Analyzing 3isx
+99
+('file_no', 636)
+Analyzing 3itf
+99
+('file_no', 637)
+Analyzing 3itq
+99
+('file_no', 638)
+Analyzing 3iuo
+99
+('file_no', 639)
+Analyzing 3iup
+101
+('file_no', 640)
+Analyzing 3iuw
+105
+('file_no', 641)
+Analyzing 3iv0
+105
+('file_no', 642)
+Analyzing 3iv4
+105
+('file_no', 643)
+Analyzing 3ive
+105
+('file_no', 644)
+Analyzing 3iwf
+105
+('file_no', 645)
+Analyzing 3jq0
+105
+('file_no', 646)
+Analyzing 3jq1
+105
+('file_no', 647)
+Analyzing 3jrv
+105
+('file_no', 648)
+Analyzing 3jsz
+105
+('file_no', 649)
+Analyzing 3jyz
+105
+('file_no', 650)
+Analyzing 3jz9
+105
+('file_no', 651)
+Analyzing 3k0b
+105
+('file_no', 652)
+Analyzing 3k11
+105
+('file_no', 653)
+Analyzing 3k12
+105
+('file_no', 654)
+Analyzing 3k1u
+106
+('file_no', 655)
+Analyzing 3k1z
+106
+('file_no', 656)
+Analyzing 3k2o
+106
+('file_no', 657)
+Analyzing 3k4i
+106
+('file_no', 658)
+Analyzing 3k5j
+106
+('file_no', 659)
+Analyzing 3k6q
+106
+('file_no', 660)
+Analyzing 3ka7
+106
+('file_no', 661)
+Analyzing 3kbg
+106
+('file_no', 662)
+Analyzing 3kby
+106
+('file_no', 663)
+Analyzing 3kc2
+106
+('file_no', 664)
+Analyzing 3kd3
+108
+('file_no', 665)
+Analyzing 3kdw
+108
+('file_no', 666)
+Analyzing 3ke7
+108
+('file_no', 667)
+Analyzing 3kev
+108
+('file_no', 668)
+Analyzing 3kgy
+108
+('file_no', 669)
+Analyzing 3kh1
+108
+('file_no', 670)
+Analyzing 3kiz
+108
+('file_no', 671)
+Analyzing 3kkf
+108
+('file_no', 672)
+Analyzing 3kkg
+108
+('file_no', 673)
+Analyzing 3kkz
+108
+('file_no', 674)
+Analyzing 3kmh
+108
+('file_no', 675)
+Analyzing 3kor
+108
+('file_no', 676)
+Analyzing 3ks6
+108
+('file_no', 677)
+Analyzing 3kta
+108
+('file_no', 678)
+Analyzing 3ktc
+108
+('file_no', 679)
+Analyzing 3kv1
+109
+('file_no', 680)
+Analyzing 3kwr
+109
+('file_no', 681)
+Analyzing 3kws
+109
+('file_no', 682)
+Analyzing 3kyz
+109
+('file_no', 683)
+Analyzing 3l0q
+111
+('file_no', 684)
+Analyzing 3l1n
+111
+('file_no', 685)
+Analyzing 3l1w
+111
+('file_no', 686)
+Analyzing 3l34
+111
+('file_no', 687)
+Analyzing 3l4e
+111
+('file_no', 688)
+Analyzing 3l4h
+111
+('file_no', 689)
+Analyzing 3l4n
+111
+('file_no', 690)
+Analyzing 3l51
+111
+('file_no', 691)
+Analyzing 3l8h
+111
+('file_no', 692)
+Analyzing 3l9a
+111
+('file_no', 693)
+Analyzing 3lae
+111
+('file_no', 694)
+Analyzing 3lag
+111
+('file_no', 695)
+Analyzing 3lax
+111
+('file_no', 696)
+Analyzing 3ld7
+112
+('file_no', 697)
+Analyzing 3led
+112
+('file_no', 698)
+Analyzing 3lew
+112
+('file_no', 699)
+Analyzing 3lfr
+112
+('file_no', 700)
+Analyzing 3lft
+112
+('file_no', 701)
+Analyzing 3lg3
+112
+('file_no', 702)
+Analyzing 3lgb
+112
+('file_no', 703)
+Analyzing 3lhe
+112
+('file_no', 704)
+Analyzing 3lhi
+112
+('file_no', 705)
+Analyzing 3lhn
+112
+('file_no', 706)
+Analyzing 3lho
+112
+('file_no', 707)
+Analyzing 3li9
+112
+('file_no', 708)
+Analyzing 3ljk
+112
+('file_no', 709)
+Analyzing 3lk7
+112
+('file_no', 710)
+Analyzing 3ll7
+112
+('file_no', 711)
+Analyzing 3llc
+112
+('file_no', 712)
+Analyzing 3lm2
+112
+('file_no', 713)
+Analyzing 3lm3
+112
+('file_no', 714)
+Analyzing 3lm4
+112
+('file_no', 715)
+Analyzing 3lmz
+112
+('file_no', 716)
+Analyzing 3lop
+112
+('file_no', 717)
+Analyzing 3lsn
+112
+('file_no', 718)
+Analyzing 3luf
+112
+('file_no', 719)
+Analyzing 3lul
+114
+('file_no', 720)
+Analyzing 3lvu
+114
+('file_no', 721)
+Analyzing 3lwc
+114
+('file_no', 722)
+Analyzing 3lwx
+114
+('file_no', 723)
+Analyzing 3ly1
+119
+('file_no', 724)
+Analyzing 3lyd
+119
+('file_no', 725)
+Analyzing 3lyg
+119
+('file_no', 726)
+Analyzing 3lyh
+119
+('file_no', 727)
+Analyzing 3lza
+119
+('file_no', 728)
+Analyzing 3m0z
+119
+('file_no', 729)
+Analyzing 3m1t
+119
+('file_no', 730)
+Analyzing 3m1u
+119
+('file_no', 731)
+Analyzing 3m3p
+119
+('file_no', 732)
+Analyzing 3m7a
+119
+('file_no', 733)
+Analyzing 3m84
+119
+('file_no', 734)
+Analyzing 3m9l
+119
+('file_no', 735)
+Analyzing 3mc3
+119
+('file_no', 736)
+Analyzing 3mcw
+119
+('file_no', 737)
+Analyzing 3mcx
+119
+('file_no', 738)
+Analyzing 3mdq
+119
+('file_no', 739)
+Analyzing 3mjf
+119
+('file_no', 740)
+Analyzing 3mqz
+119
+('file_no', 741)
+Analyzing 3mr0
+119
+('file_no', 742)
+Analyzing 3mst
+119
+('file_no', 743)
+Analyzing 3mt0
+119
+('file_no', 744)
+Analyzing 3mvu
+119
+('file_no', 745)
+Analyzing 3mw8
+119
+('file_no', 746)
+Analyzing 3mwx
+119
+('file_no', 747)
+Analyzing 3mwz
+119
+('file_no', 748)
+Analyzing 3myx
+119
+('file_no', 749)
+Analyzing 3mz2
+119
+('file_no', 750)
+Analyzing 3n0r
+119
+('file_no', 751)
+Analyzing 3n6y
+119
+('file_no', 752)
+Analyzing 3n6z
+119
+('file_no', 753)
+Analyzing 3nbm
+119
+('file_no', 754)
+Analyzing 3ne8
+119
+('file_no', 755)
+Analyzing 3neu
+119
+('file_no', 756)
+Analyzing 3njc
+119
+('file_no', 757)
+Analyzing 3nke
+119
+('file_no', 758)
+Analyzing 3nl9
+119
+('file_no', 759)
+Analyzing 3nnb
+119
+('file_no', 760)
+Analyzing 3no2
+119
+('file_no', 761)
+Analyzing 3no6
+119
+('file_no', 762)
+Analyzing 3noh
+119
+('file_no', 763)
+Analyzing 3npd
+119
+('file_no', 764)
+Analyzing 3npf
+119
+('file_no', 765)
+Analyzing 3nre
+119
+('file_no', 766)
+Analyzing 3nrf
+119
+('file_no', 767)
+Analyzing 3nrh
+119
+('file_no', 768)
+Analyzing 3nrw
+119
+('file_no', 769)
+Analyzing 3ntv
+119
+('file_no', 770)
+Analyzing 3nuf
+119
+('file_no', 771)
+Analyzing 3nwc
+119
+('file_no', 772)
+Analyzing 3nyy
+119
+('file_no', 773)
+Analyzing 3nze
+119
+('file_no', 774)
+Analyzing 3nzl
+119
+('file_no', 775)
+Analyzing 3o12
+119
+('file_no', 776)
+Analyzing 3o14
+119
+('file_no', 777)
+Analyzing 3o6p
+119
+('file_no', 778)
+Analyzing 3obe
+119
+('file_no', 779)
+Analyzing 3ocj
+119
+('file_no', 780)
+Analyzing 3ocm
+119
+('file_no', 781)
+Analyzing 3odt
+119
+('file_no', 782)
+Analyzing 3of5
+119
+('file_no', 783)
+Analyzing 3ofg
+119
+('file_no', 784)
+Analyzing 3ogh
+119
+('file_no', 785)
+Analyzing 3ohe
+119
+('file_no', 786)
+Analyzing 3ohg
+119
+('file_no', 787)
+Analyzing 3ohr
+119
+('file_no', 788)
+Analyzing 3oio
+119
+('file_no', 789)
+Analyzing 3oiz
+119
+('file_no', 790)
+Analyzing 3oj0
+119
+('file_no', 791)
+Analyzing 3okx
+119
+('file_no', 792)
+Analyzing 3omd
+119
+('file_no', 793)
+Analyzing 3on1
+119
+('file_no', 794)
+Analyzing 3oos
+119
+('file_no', 795)
+Analyzing 3oou
+119
+('file_no', 796)
+Analyzing 3oox
+119
+('file_no', 797)
+Analyzing 3op7
+119
+('file_no', 798)
+Analyzing 3oqg
+119
+('file_no', 799)
+Analyzing 3oqp
+119
+('file_no', 800)
+Analyzing 3oru
+121
+('file_no', 801)
+Analyzing 3os4
+121
+('file_no', 802)
+Analyzing 3oug
+121
+('file_no', 803)
+Analyzing 3oxp
+121
+('file_no', 804)
+Analyzing 3oyv
+121
+('file_no', 805)
+Analyzing 3oz2
+121
+('file_no', 806)
+Analyzing 3p02
+122
+('file_no', 807)
+Analyzing 3p3v
+122
+('file_no', 808)
+Analyzing 3p8k
+122
+('file_no', 809)
+Analyzing 3pa6
+122
+('file_no', 810)
+Analyzing 3pc7
+122
+('file_no', 811)
+Analyzing 3pes
+122
+('file_no', 812)
+Analyzing 3pf6
+126
+('file_no', 813)
+Analyzing 3pfe
+126
+('file_no', 814)
+Analyzing 3pfy
+126
+('file_no', 815)
+Analyzing 3pi7
+127
+('file_no', 816)
+Analyzing 3pj0
+127
+('file_no', 817)
+Analyzing 3pjy
+127
+('file_no', 818)
+Analyzing 3poh
+128
+('file_no', 819)
+Analyzing 3pp9
+128
+('file_no', 820)
+Analyzing 3ppl
+128
+('file_no', 821)
+Analyzing 3pr6
+128
+('file_no', 822)
+Analyzing 3pt1
+128
+('file_no', 823)
+Analyzing 3pu9
+128
+('file_no', 824)
+Analyzing 3q1n
+128
+('file_no', 825)
+Analyzing 3q64
+128
+('file_no', 826)
+Analyzing 3q7m
+128
+('file_no', 827)
+Analyzing 3qbm
+128
+('file_no', 828)
+Analyzing 3qc0
+128
+('file_no', 829)
+Analyzing 3qnm
+128
+('file_no', 830)
+Analyzing 3qoo
+128
+('file_no', 831)
+Analyzing 3qsj
+128
+('file_no', 832)
+Analyzing 3quf
+128
+('file_no', 833)
+Analyzing 3qy3
+129
+('file_no', 834)
+Analyzing 3r0v
+129
+('file_no', 835)
+Analyzing 3r6d
+129
+('file_no', 836)
+Analyzing 3rag
+129
+('file_no', 837)
+Analyzing 3rf0
+129
+('file_no', 838)
+Analyzing 3rjt
+129
+('file_no', 839)
+Analyzing 3rju
+129
+('file_no', 840)
+Analyzing 3rjv
+129
+('file_no', 841)
+Analyzing 3rkl
+129
+('file_no', 842)
+Analyzing 3rnl
+129
+('file_no', 843)
+Analyzing 3rob
+129
+('file_no', 844)
+Analyzing 3rpc
+129
+('file_no', 845)
+Analyzing 3rpd
+129
+('file_no', 846)
+Analyzing 3rpw
+129
+('file_no', 847)
+Analyzing 3rqt
+129
+('file_no', 848)
+Analyzing 3rri
+129
+('file_no', 849)
+Analyzing 3s6e
+129
+('file_no', 850)
+Analyzing 3s6f
+129
+('file_no', 851)
+Analyzing 3s83
+130
+('file_no', 852)
+Analyzing 3s8m
+130
+('file_no', 853)
+Analyzing 3s9j
+131
+('file_no', 854)
+Analyzing 3s9x
+131
+('file_no', 855)
+Analyzing 3scy
+131
+('file_no', 856)
+Analyzing 3sd2
+131
+('file_no', 857)
+Analyzing 3see
+131
+('file_no', 858)
+Analyzing 3sg0
+131
+('file_no', 859)
+Analyzing 3sgg
+131
+('file_no', 860)
+Analyzing 3sho
+131
+('file_no', 861)
+Analyzing 3slr
+131
+('file_no', 862)
+Analyzing 3son
+131
+('file_no', 863)
+Analyzing 3svi
+131
+('file_no', 864)
+Analyzing 3t7d
+131
+('file_no', 865)
+Analyzing 3t8k
+131
+('file_no', 866)
+Analyzing 3tc8
+131
+('file_no', 867)
+Analyzing 3tjy
+131
+('file_no', 868)
+Analyzing 3tos
+131
+('file_no', 869)
+Analyzing 3trg
+131
+('file_no', 870)
+Analyzing 3tys
+131
+('file_no', 871)
+Analyzing 3u1d
+131
+('file_no', 872)
+Analyzing 3u3l
+131
+('file_no', 873)
+Analyzing 3u4v
+131
+('file_no', 874)
+Analyzing 3u6g
+131
+('file_no', 875)
+Analyzing 3u7f
+131
+('file_no', 876)
+Analyzing 3u7r
+131
+('file_no', 877)
+Analyzing 3u9j
+131
+('file_no', 878)
+Analyzing 3ub1
+131
+('file_no', 879)
+Analyzing 3ue2
+131
+('file_no', 880)
+Analyzing 3uf6
+131
+('file_no', 881)
+Analyzing 3ups
+131
+('file_no', 882)
+Analyzing 3ush
+131
+('file_no', 883)
+Analyzing 3ux2
+131
+('file_no', 884)
+Analyzing 3uxj
+131
+('file_no', 885)
+Analyzing 3v3l
+131
+('file_no', 886)
+Analyzing 3v75
+132
+('file_no', 887)
+Analyzing 3v7b
+132
+('file_no', 888)
+Analyzing 3vcx
+132
+('file_no', 889)
+Analyzing 3vpy
+132
+('file_no', 890)
+Analyzing 3wva
+132
+('file_no', 891)
+Analyzing 3wz3
+132
+('file_no', 892)
+Analyzing 3zeu
+132
+('file_no', 893)
+Analyzing 3zqo
+132
+('file_no', 894)
+Analyzing 3zri
+132
+('file_no', 895)
+Analyzing 4a3z
+132
+('file_no', 896)
+Analyzing 4a42
+132
+('file_no', 897)
+Analyzing 4a6q
+132
+('file_no', 898)
+Analyzing 4afm
+132
+('file_no', 899)
+Analyzing 4ap9
+132
+('file_no', 900)
+Analyzing 4bc3
+134
+('file_no', 901)
+Analyzing 4bji
+134
+('file_no', 902)
+Analyzing 4bpf
+134
+('file_no', 903)
+Analyzing 4bps
+134
+('file_no', 904)
+Analyzing 4bwr
+134
+('file_no', 905)
+Analyzing 4cbp
+134
+('file_no', 906)
+Analyzing 4cmr
+134
+('file_no', 907)
+Analyzing 4cua
+134
+('file_no', 908)
+Analyzing 4d05
+135
+('file_no', 909)
+Analyzing 4d0u
+135
+('file_no', 910)
+Analyzing 4dm5
+142
+('file_no', 911)
+Analyzing 4dn7
+142
+('file_no', 912)
+Analyzing 4dqa
+142
+('file_no', 913)
+Analyzing 4dzo
+142
+('file_no', 914)
+Analyzing 4e0a
+142
+('file_no', 915)
+Analyzing 4e1b
+143
+('file_no', 916)
+Analyzing 4e4r
+143
+('file_no', 917)
+Analyzing 4e5v
+143
+('file_no', 918)
+Analyzing 4e6f
+143
+('file_no', 919)
+Analyzing 4eae
+143
+('file_no', 920)
+Analyzing 4ebg
+143
+('file_no', 921)
+Analyzing 4ebj
+143
+('file_no', 922)
+Analyzing 4ecf
+143
+('file_no', 923)
+Analyzing 4ehs
+143
+('file_no', 924)
+Analyzing 4emt
+143
+('file_no', 925)
+Analyzing 4epz
+143
+('file_no', 926)
+Analyzing 4eq8
+143
+('file_no', 927)
+Analyzing 4evq
+143
+('file_no', 928)
+Analyzing 4evu
+143
+('file_no', 929)
+Analyzing 4evx
+143
+('file_no', 930)
+Analyzing 4ew7
+143
+('file_no', 931)
+Analyzing 4eyz
+143
+('file_no', 932)
+Analyzing 4ezg
+143
+('file_no', 933)
+Analyzing 4ezi
+143
+('file_no', 934)
+Analyzing 4f03
+143
+('file_no', 935)
+Analyzing 4f06
+143
+('file_no', 936)
+Analyzing 4f0j
+143
+('file_no', 937)
+Analyzing 4f0r
+143
+('file_no', 938)
+Analyzing 4f2l
+143
+('file_no', 939)
+Analyzing 4f54
+143
+('file_no', 940)
+Analyzing 4f67
+143
+('file_no', 941)
+Analyzing 4f98
+143
+('file_no', 942)
+Analyzing 4fb7
+143
+('file_no', 943)
+Analyzing 4fc9
+146
+('file_no', 944)
+Analyzing 4fdb
+146
+('file_no', 945)
+Analyzing 4ffu
+147
+('file_no', 946)
+Analyzing 4fh0
+147
+('file_no', 947)
+Analyzing 4fr9
+147
+('file_no', 948)
+Analyzing 4fs7
+147
+('file_no', 949)
+Analyzing 4fx5
+147
+('file_no', 950)
+Analyzing 4g0x
+147
+('file_no', 951)
+Analyzing 4g29
+147
+('file_no', 952)
+Analyzing 4g5a
+147
+('file_no', 953)
+Analyzing 4g6x
+147
+('file_no', 954)
+Analyzing 4g75
+147
+('file_no', 955)
+Analyzing 4g9q
+147
+('file_no', 956)
+Analyzing 4gb5
+147
+('file_no', 957)
+Analyzing 4gb7
+148
+('file_no', 958)
+Analyzing 4gc5
+148
+('file_no', 959)
+Analyzing 4gd5
+148
+('file_no', 960)
+Analyzing 4ghn
+148
+('file_no', 961)
+Analyzing 4gi5
+148
+('file_no', 962)
+Analyzing 4gpv
+148
+('file_no', 963)
+Analyzing 4gt6
+149
+('file_no', 964)
+Analyzing 4guc
+149
+('file_no', 965)
+Analyzing 4gwb
+149
+('file_no', 966)
+Analyzing 4gym
+149
+('file_no', 967)
+Analyzing 4h08
+149
+('file_no', 968)
+Analyzing 4h0c
+149
+('file_no', 969)
+Analyzing 4h1x
+149
+('file_no', 970)
+Analyzing 4h3u
+149
+('file_no', 971)
+Analyzing 4h3v
+149
+('file_no', 972)
+Analyzing 4h41
+153
+('file_no', 973)
+Analyzing 4h59
+153
+('file_no', 974)
+Analyzing 4h5i
+153
+('file_no', 975)
+Analyzing 4h89
+153
+('file_no', 976)
+Analyzing 4hbz
+153
+('file_no', 977)
+Analyzing 4hc5
+153
+('file_no', 978)
+Analyzing 4hcj
+153
+('file_no', 979)
+Analyzing 4hdd
+153
+('file_no', 980)
+Analyzing 4hde
+153
+('file_no', 981)
+Analyzing 4heo
+153
+('file_no', 982)
+Analyzing 4hfs
+153
+('file_no', 983)
+Analyzing 4hg2
+153
+('file_no', 984)
+Analyzing 4hik
+153
+('file_no', 985)
+Analyzing 4hjf
+154
+('file_no', 986)
+Analyzing 4hlb
+154
+('file_no', 987)
+Analyzing 4htl
+154
+('file_no', 988)
+Analyzing 4hw6
+154
+('file_no', 989)
+Analyzing 4hwm
+154
+('file_no', 990)
+Analyzing 4i0w
+155
+('file_no', 991)
+Analyzing 4i4k
+155
+('file_no', 992)
+Analyzing 4i66
+155
+('file_no', 993)
+Analyzing 4i8i
+156
+('file_no', 994)
+Analyzing 4i93
+156
+('file_no', 995)
+Analyzing 4iab
+156
+('file_no', 996)
+Analyzing 4iau
+156
+('file_no', 997)
+Analyzing 4ici
+156
+('file_no', 998)
+Analyzing 4ifa
+156
+('file_no', 999)
+Analyzing 4ipu
+156
+('file_no', 1000)
+Analyzing 4ius
+156
+('file_no', 1001)
+Analyzing 4ix7
+156
+('file_no', 1002)
+Analyzing 4iyj
+156
+('file_no', 1003)
+Analyzing 4j3h
+156
+('file_no', 1004)
+Analyzing 4j4z
+156
+('file_no', 1005)
+Analyzing 4j8l
+156
+('file_no', 1006)
+Analyzing 4jb7
+156
+('file_no', 1007)
+Analyzing 4jdu
+156
+('file_no', 1008)
+Analyzing 4jgl
+156
+('file_no', 1009)
+Analyzing 4jja
+157
+('file_no', 1010)
+Analyzing 4jm1
+157
+('file_no', 1011)
+Analyzing 4jwo
+157
+('file_no', 1012)
+Analyzing 4jxr
+157
+('file_no', 1013)
+Analyzing 4k05
+158
+('file_no', 1014)
+Analyzing 4k4k
+158
+('file_no', 1015)
+Analyzing 4k7c
+158
+('file_no', 1016)
+Analyzing 4kal
+158
+('file_no', 1017)
+Analyzing 4kbx
+158
+('file_no', 1018)
+Analyzing 4kh8
+158
+('file_no', 1019)
+Analyzing 4kia
+158
+('file_no', 1020)
+Analyzing 4kmr
+158
+('file_no', 1021)
+Analyzing 4kq7
+158
+('file_no', 1022)
+Analyzing 4krg
+161
+('file_no', 1023)
+Analyzing 4kt3
+161
+('file_no', 1024)
+Analyzing 4kv7
+161
+('file_no', 1025)
+Analyzing 4l0c
+161
+('file_no', 1026)
+Analyzing 4l8p
+161
+('file_no', 1027)
+Analyzing 4lba
+161
+('file_no', 1028)
+Analyzing 4ler
+161
+('file_no', 1029)
+Analyzing 4lhs
+161
+('file_no', 1030)
+Analyzing 4lij
+161
+('file_no', 1031)
+Analyzing 4liz
+161
+('file_no', 1032)
+Analyzing 4lmi
+161
+('file_no', 1033)
+Analyzing 4lpq
+161
+('file_no', 1034)
+Analyzing 4lqb
+161
+('file_no', 1035)
+Analyzing 4lx3
+161
+('file_no', 1036)
+Analyzing 4m88
+161
+('file_no', 1037)
+Analyzing 4mam
+161
+('file_no', 1038)
+Analyzing 4mdy
+161
+('file_no', 1039)
+Analyzing 4mlm
+161
+('file_no', 1040)
+Analyzing 4mlz
+161
+('file_no', 1041)
+Analyzing 4mnr
+161
+('file_no', 1042)
+Analyzing 4mpt
+161
+('file_no', 1043)
+Analyzing 4mxt
+161
+('file_no', 1044)
+Analyzing 4n01
+161
+('file_no', 1045)
+Analyzing 4n03
+162
+('file_no', 1046)
+Analyzing 4n0r
+164
+('file_no', 1047)
+Analyzing 4n2p
+164
+('file_no', 1048)
+Analyzing 4nkp
+164
+('file_no', 1049)
+Analyzing 4nlm
+164
+('file_no', 1050)
+Analyzing 4nmu
+164
+('file_no', 1051)
+Analyzing 4nmw
+164
+('file_no', 1052)
+Analyzing 4noa
+164
+('file_no', 1053)
+Analyzing 4noh
+164
+('file_no', 1054)
+Analyzing 4nwb
+164
+('file_no', 1055)
+Analyzing 4nzj
+164
+('file_no', 1056)
+Analyzing 4nzk
+164
+('file_no', 1057)
+Analyzing 4oe9
+164
+('file_no', 1058)
+Analyzing 4oi3
+164
+('file_no', 1059)
+Analyzing 4opm
+164
+('file_no', 1060)
+Analyzing 4opw
+164
+('file_no', 1061)
+Analyzing 4ovj
+164
+('file_no', 1062)
+Analyzing 4ovk
+164
+('file_no', 1063)
+Analyzing 4ovy
+164
+('file_no', 1064)
+Analyzing 4ox5
+164
+('file_no', 1065)
+Analyzing 4p0z
+164
+('file_no', 1066)
+Analyzing 4pdy
+164
+('file_no', 1067)
+Analyzing 4ped
+164
+('file_no', 1068)
+Analyzing 4ps6
+164
+('file_no', 1069)
+Analyzing 4pux
+164
+('file_no', 1070)
+Analyzing 4pw0
+164
+('file_no', 1071)
+Analyzing 4pxy
+166
+('file_no', 1072)
+Analyzing 4pyr
+166
+('file_no', 1073)
+Analyzing 4pz0
+166
+('file_no', 1074)
+Analyzing 4pzj
+166
+('file_no', 1075)
+Analyzing 4q0y
+166
+('file_no', 1076)
+Analyzing 4q29
+166
+('file_no', 1077)
+Analyzing 4q2w
+167
+('file_no', 1078)
+Analyzing 4q34
+167
+('file_no', 1079)
+Analyzing 4q53
+167
+('file_no', 1080)
+Analyzing 4q68
+167
+('file_no', 1081)
+Analyzing 4q6j
+168
+('file_no', 1082)
+Analyzing 4q7q
+168
+('file_no', 1083)
+Analyzing 4q98
+168
+('file_no', 1084)
+Analyzing 4qgp
+168
+('file_no', 1085)
+Analyzing 4qhw
+170
+('file_no', 1086)
+Analyzing 4qjk
+170
+('file_no', 1087)
+Analyzing 4qm7
+170
+('file_no', 1088)
+Analyzing 4qma
+170
+('file_no', 1089)
+Analyzing 4qn8
+170
+('file_no', 1090)
+Analyzing 4qpv
+170
+('file_no', 1091)
+Analyzing 4qt6
+170
+('file_no', 1092)
+Analyzing 4qwo
+170
+('file_no', 1093)
+Analyzing 4qy7
+170
+('file_no', 1094)
+Analyzing 4r03
+170
+('file_no', 1095)
+Analyzing 4r0j
+170
+('file_no', 1096)
+Analyzing 4r1h
+170
+('file_no', 1097)
+Analyzing 4r4k
+170
+('file_no', 1098)
+Analyzing 4r82
+170
+('file_no', 1099)
+Analyzing 4r9f
+170
+('file_no', 1100)
+Analyzing 4rd8
+170
+('file_no', 1101)
+Analyzing 4rdb
+170
+('file_no', 1102)
+Analyzing 4rgi
+170
+('file_no', 1103)
+Analyzing 4rha
+170
+('file_no', 1104)
+Analyzing 4rjz
+170
+('file_no', 1105)
+Analyzing 4rk6
+170
+('file_no', 1106)
+Analyzing 4ro3
+170
+('file_no', 1107)
+Analyzing 4rpm
+170
+('file_no', 1108)
+Analyzing 4rqa
+170
+('file_no', 1109)
+Analyzing 4rt5
+170
+('file_no', 1110)
+Analyzing 4ruw
+170
+('file_no', 1111)
+Analyzing 4rv5
+170
+('file_no', 1112)
+Analyzing 4s1a
+170
+('file_no', 1113)
+Analyzing 4s1p
+171
+('file_no', 1114)
+Analyzing 4s1w
+173
+('file_no', 1115)
+Analyzing 4u3e
+173
+('file_no', 1116)
+Analyzing 4uab
+173
+('file_no', 1117)
+Analyzing 4uds
+173
+('file_no', 1118)
+Analyzing 4ufq
+173
+('file_no', 1119)
+Analyzing 4uvq
+173
+('file_no', 1120)
+Analyzing 4v1k
+173
+('file_no', 1121)
+Analyzing 4w79
+174
+('file_no', 1122)
+Analyzing 4wa0
+174
+('file_no', 1123)
+Analyzing 4wbt
+174
+('file_no', 1124)
+Analyzing 4wji
+174
+('file_no', 1125)
+Analyzing 4x3i
+174
+('file_no', 1126)
+Analyzing 4x7g
+174
+('file_no', 1127)
+Analyzing 4x9t
+174
+('file_no', 1128)
+Analyzing 4xed
+174
+('file_no', 1129)
+Analyzing 4xjy
+176
+('file_no', 1130)
+Analyzing 4xlz
+176
+('file_no', 1131)
+Analyzing 4xo1
+176
+('file_no', 1132)
+Analyzing 4xsq
+178
+('file_no', 1133)
+Analyzing 4xvv
+178
+('file_no', 1134)
+Analyzing 4xxt
+178
+('file_no', 1135)
+Analyzing 4y7d
+178
+('file_no', 1136)
+Analyzing 4y9t
+178
+('file_no', 1137)
+Analyzing 4yd8
+180
+('file_no', 1138)
+Analyzing 4ye7
+180
+('file_no', 1139)
+Analyzing 4yhs
+180
+('file_no', 1140)
+Analyzing 4yj6
+180
+('file_no', 1141)
+Analyzing 4yjw
+180
+('file_no', 1142)
+Analyzing 4yle
+181
+('file_no', 1143)
+Analyzing 4ytd
+181
+('file_no', 1144)
+Analyzing 4ytl
+181
+('file_no', 1145)
+Analyzing 4ywq
+181
+('file_no', 1146)
+Analyzing 4ywz
+181
+('file_no', 1147)
+Analyzing 4yx1
+181
+('file_no', 1148)
+Analyzing 4yyc
+182
+('file_no', 1149)
+Analyzing 4yzo
+196
+('file_no', 1150)
+Analyzing 4z7x
+196
+('file_no', 1151)
+Analyzing 4zgf
+196
+('file_no', 1152)
+Analyzing 4zhb
+196
+('file_no', 1153)
+Analyzing 4zrx
+198
+('file_no', 1154)
+Analyzing 4zv0
+198
+('file_no', 1155)
+Analyzing 5a1q
+198
+('file_no', 1156)
+Analyzing 5aiz
+198
+('file_no', 1157)
+Analyzing 5aoz
+198
+('file_no', 1158)
+Analyzing 5apg
+198
+('file_no', 1159)
+Analyzing 5b4s
+198
+('file_no', 1160)
+Analyzing 5bmt
+198
+('file_no', 1161)
+Analyzing 5bob
+198
+('file_no', 1162)
+Analyzing 5bov
+198
+('file_no', 1163)
+Analyzing 5bp8
+198
+('file_no', 1164)
+Analyzing 5bp9
+198
+('file_no', 1165)
+Analyzing 5bs1
+198
+('file_no', 1166)
+Analyzing 5bty
+198
+('file_no', 1167)
+Analyzing 5by8
+198
+('file_no', 1168)
+Analyzing 5c0p
+198
+('file_no', 1169)
+Analyzing 5c4y
+198
+('file_no', 1170)
+Analyzing 5c5g
+198
+('file_no', 1171)
+Analyzing 5c5z
+198
+('file_no', 1172)
+Analyzing 5caj
+198
+('file_no', 1173)
+Analyzing 5cd2
+198
+('file_no', 1174)
+Analyzing 5cof
+198
+('file_no', 1175)
+Analyzing 5coz
+198
+('file_no', 1176)
+Analyzing 5cr9
+198
+('file_no', 1177)
+Analyzing 5d08
+200
+('file_no', 1178)
+Analyzing 5d66
+200
+('file_no', 1179)
+Analyzing 5dof
+200
+('file_no', 1180)
+Analyzing 5dpo
+200
+('file_no', 1181)
+Analyzing 5dyq
+200
+('file_no', 1182)
+Analyzing 5e2c
+200
+('file_no', 1183)
+Analyzing 5e3e
+200
+('file_no', 1184)
+Analyzing 5edf
+200
+('file_no', 1185)
+Analyzing 5el3
+200
+('file_no', 1186)
+Analyzing 5evf
+200
+('file_no', 1187)
+Analyzing 5fa8
+200
+('file_no', 1188)
+Analyzing 5fce
+200
+('file_no', 1189)
+Analyzing 5fq1
+200
+('file_no', 1190)
+Analyzing 5h18
+200
+('file_no', 1191)
+Analyzing 5hj1
+200
+('file_no', 1192)
+Analyzing 5hl3
+200
+('file_no', 1193)
+Analyzing 5hop
+200
+('file_no', 1194)
+Analyzing 5hwt
+200
+('file_no', 1195)
+Analyzing 5i2h
+200
+('file_no', 1196)
+Analyzing 5i39
+200
+('file_no', 1197)
+Analyzing 5i45
+200
+('file_no', 1198)
+Analyzing 5i55
+200
+('file_no', 1199)
+Analyzing 5iai
+200
+('file_no', 1200)
+Analyzing 5ibz
+200
+('file_no', 1201)
+Analyzing 5ix8
+200
+('file_no', 1202)
+Analyzing 5ixp
+200
+('file_no', 1203)
+Analyzing 5jbr
+200
+('file_no', 1204)
+Analyzing 5jg7
+200
+('file_no', 1205)
+Analyzing 5jh8
+200
+('file_no', 1206)
+Analyzing 5jmu
+200
+('file_no', 1207)
+Analyzing 5jnm
+200
+('file_no', 1208)
+Analyzing 5jph
+203
+('file_no', 1209)
+Analyzing 5k8j
+203
+('file_no', 1210)
+Analyzing 5kko
+203
+('file_no', 1211)
+Analyzing 5l0l
+203
+('file_no', 1212)
+Analyzing 5lbd
+203
+('file_no', 1213)
+Analyzing 5m1x
+203
+('file_no', 1214)
+Analyzing 5meb
+203
+('file_no', 1215)
+Analyzing 5mlt
+203
+('file_no', 1216)
+Analyzing 5mt2
+203
+('file_no', 1217)
+Analyzing 5odj
+203
+('file_no', 1218)
+Analyzing 5sv5
+203
+('file_no', 1219)
+Analyzing 5tk2
+203
+('file_no', 1220)
+Analyzing 5tkw
+203
+('file_no', 1221)
+Analyzing 5tro
+206
+('file_no', 1222)
+Analyzing 5uc0
+206
+('file_no', 1223)
+Analyzing 5ufh
+206
+('file_no', 1224)
+Analyzing 5unc
+206
+('file_no', 1225)
+Analyzing 5uou
+206
+('file_no', 1226)
+Analyzing 5usg
+206
+('file_no', 1227)
+Analyzing 5usw
+206
+('file_no', 1228)
+Analyzing 5v44
+206
+('file_no', 1229)
+Analyzing 5vny
+206
+('file_no', 1230)
+Analyzing 5vug
+207
+('file_no', 1231)
+Analyzing 5w5b
+207
+('file_no', 1232)
+Analyzing 5x1u
+207
+('file_no', 1233)
+Analyzing 5xi8
+207
+('file_no', 1234)
+Analyzing 6azi
+207
+('1d2i', 1751, 0, 2041, array([34.504, -1.346, 46.677]), array([35.076,  0.175, 48.829]), array([35.07 ,  0.708, 49.504]))
+('1d2i', 3569, 0, 3859, array([32.489, 28.876, 10.465]), array([32.959, 27.333,  8.298]), array([33.031, 26.821,  7.61 ]))
+('1dfm', 1751, 0, 2041, array([34.396, -1.422, 46.6  ]), array([34.883,  0.162, 48.76 ]), array([34.908,  0.676, 49.449]))
+('1dfm', 3569, 0, 3859, array([32.324, 28.905, 10.459]), array([32.781, 27.417,  8.297]), array([32.836, 26.885,  7.624]))
+('1kko', 3092, 0, 1259, array([ -31.136, -132.416,  -73.864]), array([ -31.451, -129.914,  -72.988]), array([ -31.427, -129.093,  -72.733]))
+('1kko', 6251, 0, 4418, array([ -37.278, -162.197,  -75.533]), array([ -37.062, -164.735,  -76.338]), array([ -37.036, -165.55 ,  -76.611]))
+('1o2d', 60, 0, 69, array([14.492, 43.581, 56.561]), array([17.229, 43.695, 57.674]), array([17.826, 44.135, 58.109]))
+('1o2d', 2886, 0, 2895, array([29.133, -0.169, 76.807]), array([26.368, -1.172, 77.294]), array([25.883, -1.794, 77.636]))
+('1u69', 1095, 0, 1120, array([53.034, 70.685, 11.307]), array([54.965, 68.631, 10.795]), array([55.228, 67.821, 10.674]))
+('1u69', 2294, 0, 2319, array([50.235, 27.238, -4.499]), array([52.367, 29.007, -3.969]), array([52.768, 29.755, -3.831]))
+('1u69', 3434, 0, 3459, array([ 26.091,  55.482, -26.94 ]), array([ 24.017,  54.665, -25.322]), array([ 23.582,  54.352, -24.649]))
+('1u69', 4570, 0, 4595, array([24.137, 46.658, 32.401]), array([22.287, 47.799, 30.691]), array([21.934, 48.18 , 30.006]))
+('1vla', 3468, 0, 3589, array([-25.07 ,  -7.11 ,  30.653]), array([-23.437,  -9.31 ,  29.642]), array([-22.734,  -9.773,  29.82 ]))
+('1w2w', 7, 0, 15, array([37.914, 36.554, 27.315]), array([37.779, 35.543, 29.91 ]), array([37.812, 35.459, 30.765]))
+('1weh', 346, 0, 311, array([ 8.684, 22.349, 16.773]), array([ 9.961, 24.35 , 15.505]), array([10.503, 24.886, 15.107]))
+('1weh', 1653, 0, 1618, array([-8.671, 47.103, 16.771]), array([-9.955, 45.121, 15.459]), array([-10.479,  44.6  ,  15.019]))
+('1z9t', 1750, 0, 1651, array([-4.221, 14.335,  0.782]), array([-2.06 , 12.597,  1.228]), array([-1.498, 12.498,  1.872]))
+('1zce', 346, 0, 684, array([ 6.658, 23.898,  7.282]), array([ 4.41 , 23.649,  5.39 ]), array([ 3.689, 23.823,  4.955]))
+('2b4v', 114, 0, 2633, array([21.135, 59.518, 16.568]), array([21.124, 58.762, 19.382]), array([20.991, 58.821, 20.23 ]))
+('2deb', 1505, 0, 1170, array([28.583, -6.902, 68.814]), array([30.479, -6.959, 66.991]), array([31.09 , -7.119, 66.407]))
+('2deb', 6534, 0, 6199, array([ 54.477, -29.493,   9.21 ]), array([ 54.377, -31.428,  10.995]), array([ 54.47 , -32.039,  11.593]))
+('2g7s', 1415, 0, 871, array([ 3.563,  6.297, 14.541]), array([ 3.838,  7.675, 16.9  ]), array([ 3.961,  8.263, 17.515]))
+('2hxv', 439, 0, 332, array([21.33 ,  3.028, 30.95 ]), array([22.275,  2.943, 28.3  ]), array([22.349,  2.787, 27.458]))
+('2hzq', 736, 0, 688, array([ 3.741, 39.786, 57.496]), array([ 3.67 , 38.63 , 60.153]), array([ 3.369, 38.325, 60.899]))
+('2i5i', 2050, 0, 1351, array([-5.097, 67.074, 38.72 ]), array([-4.684, 64.363, 37.616]), array([-4.827, 63.567, 37.325]))
+('2i5i', 4092, 0, 3397, array([ -5.928,  68.221, 100.807]), array([ -8.421,  67.538, 102.037]), array([ -9.092,  67.126, 102.383]))
+('2i6h', 7, 0, 57, array([6.603, 3.92 , 6.928]), array([7.15 , 6.794, 6.729]), array([7.06 , 7.647, 6.794]))
+('2isb', 1231, 0, 593, array([36.626, 36.996, 28.925]), array([34.427, 35.848, 27.851]), array([33.936, 35.278, 27.435]))
+('2j43', 740, 0, 703, array([24.095, 13.661, 62.027]), array([21.807, 12.111, 62.234]), array([21.117, 11.636, 62.427]))
+('2j43', 2546, 0, 2509, array([ 32.29 , -12.066, 101.544]), array([ 34.654, -10.557, 101.742]), array([ 35.309, -10.038, 101.945]))
+('2od5', 34, 0, 10, array([-2.389, 13.658, 14.398]), array([-2.117, 14.452, 11.599]), array([-1.907, 14.474, 10.765]))
+('2q4m', 125, 0, 127, array([14.552,  7.387,  2.983]), array([14.126, 10.07 ,  2.436]), array([13.812, 10.642,  2.997]))
+('2qhq', 38, 0, 9, array([44.304, 84.196,  6.342]), array([46.289, 82.485,  5.387]), array([46.879, 82.178,  5.933]))
+('2qnk', 1482, 0, 704, array([21.157, 58.924, 19.432]), array([23.792, 59.815, 19.676]), array([24.595, 59.931, 19.962]))
+('2qpx', 1993, 0, 1941, array([37.674, 25.89 , 21.336]), array([38.981, 25.213, 19.005]), array([39.147, 25.554, 18.233]))
+('2qpx', 2739, 0, 2692, array([40.313, 20.738,  6.185]), array([41.449, 22.772,  4.653]), array([41.587, 23.483,  4.189]))
+('2qwu', 1578, 0, 1692, array([43.574, 51.501, 70.132]), array([42.604, 51.779, 67.57 ]), array([42.671, 52.206, 66.827]))
+('2rb7', 173, 0, 627, array([40.12 , 42.915, 73.23 ]), array([41.123, 40.244, 72.35 ]), array([40.943, 39.404, 72.314]))
+('2rb7', 3081, 0, 3551, array([ 52.584,  47.187, 109.899]), array([ 51.434,  45.337, 111.957]), array([ 51.38 ,  44.557, 112.316]))
+('2yh9', 1116, 0, 1088, array([ 4.919, 31.552, 20.075]), array([ 5.798, 29.172, 18.989]), array([ 6.302, 28.647, 18.531]))
+('2ywl', 1356, 0, 2073, array([-36.607, -43.795,  20.795]), array([-37.549, -42.139,  19.774]), array([-37.885, -41.501,  19.305]))
+('3bb9', 764, 0, 1239, array([  7.6  , 100.745,  24.161]), array([  7.19 , 101.57 ,  26.631]), array([  6.833, 102.089,  27.217]))
+('3bb9', 1729, 0, 299, array([15.333, 91.596, 25.811]), array([14.547, 91.117, 28.378]), array([14.753, 90.61 , 29.041]))
+('3bb9', 2698, 0, 3213, array([-0.645, 83.402, 52.592]), array([-0.965, 86.023, 51.919]), array([-0.654, 86.802, 52.109]))
+('3bb9', 3710, 0, 2233, array([-8.526, 79.015, 44.196]), array([-8.38 , 81.223, 42.56 ]), array([-8.689, 81.538, 41.822]))
+('3bb9', 4675, 0, 5132, array([22.277, 50.754, 15.547]), array([22.368, 48.252, 16.38 ]), array([22.71 , 47.463, 16.379]))
+('3bb9', 5596, 0, 4207, array([13.481, 55.06 , 23.113]), array([14.206, 53.034, 24.951]), array([13.89 , 52.8  , 25.716]))
+('3bed', 1767, 0, 1734, array([ 4.96 , 43.957, 14.503]), array([ 4.473, 41.095, 14.637]), array([ 4.027, 40.495, 15.063]))
+('3bpt', 241, 0, 212, array([36.482, -0.648,  1.459]), array([35.343,  0.47 ,  3.676]), array([35.316,  0.92 ,  4.408]))
+('3c24', 1815, 0, 1880, array([-13.324,  39.377,  26.671]), array([-15.922,  39.841,  25.352]), array([-16.659,  40.182,  25.068]))
+('3cje', 188, 0, 214, array([ 5.474, 81.591,  0.606]), array([ 4.681, 82.978, -1.933]), array([ 4.677, 83.381, -2.693]))
+('3e10', 257, 0, 2766, array([27.329, 14.262, 49.754]), array([26.946, 12.479, 47.726]), array([26.53 , 11.981, 47.162]))
+('3e10', 1698, 0, 1324, array([31.282, 12.533, 80.259]), array([33.326, 11.96 , 81.999]), array([34.001, 12.108, 82.511]))
+('3e6q', 60, 0, 596, array([ 65.64 , -24.044,  26.789]), array([ 64.882, -21.922,  28.534]), array([ 65.146, -21.333,  29.103]))
+('3e6q', 1074, 0, 1621, array([ 71.815, -22.547,  50.544]), array([ 70.231, -20.667,  49.116]), array([ 70.025, -20.307,  48.362]))
+('3e6q', 2108, 0, 2641, array([80.639, -6.203, 34.415]), array([77.949, -6.485, 35.2  ]), array([77.298, -6.983, 35.461]))
+('3e6q', 3132, 0, 3671, array([57.415, 27.741, 31.013]), array([56.641, 25.222, 32.225]), array([56.943, 24.669, 32.81 ]))
+('3e6q', 4172, 0, 4720, array([71.996,  8.386, 32.079]), array([69.382,  8.36 , 33.263]), array([68.791,  8.909, 33.562]))
+('3e6q', 5215, 0, 5750, array([66.475, 20.633, 52.378]), array([64.753, 19.057, 50.875]), array([64.498, 18.755, 50.111]))
+('3e6q', 6239, 0, 6769, array([25.56 , 29.115, 20.081]), array([27.513, 27.28 , 20.974]), array([28.274, 26.896, 20.862]))
+('3e6q', 7225, 0, 7754, array([36.557, 12.765,  5.627]), array([37.003, 13.08 ,  8.383]), array([37.032, 13.586,  9.078]))
+('3e6q', 8218, 0, 8782, array([49.784, 30.723, 15.952]), array([48.462, 28.635, 17.432]), array([47.842, 28.04 , 17.397]))
+('3e6q', 9257, 0, 9803, array([41.873, -1.725, 12.467]), array([41.521, -1.644, 15.431]), array([41.535, -2.223, 16.067]))
+('3e6q', 304, 0, 840, array([ 25.233, -14.065,  25.294]), array([ 27.261, -12.46 ,  26.428]), array([ 28.054, -12.144,  26.323]))
+('3e6q', 1332, 0, 1861, array([ 48.626, -20.821,  25.939]), array([ 47.604, -18.373,  26.975]), array([ 46.969, -17.795,  26.928]))
+('3eby', 509, 0, 476, array([21.536, 21.864, 34.423]), array([21.307, 19.754, 36.246]), array([21.097, 19.048, 36.69 ]))
+('3ec6', 7, 0, 19, array([-2.083, 32.859, 43.379]), array([-1.927, 31.217, 41.124]), array([-2.04 , 30.802, 40.379]))
+('3eqx', 3715, 0, 3546, array([  9.443,  65.509, -87.674]), array([  9.841,  63.206, -86.454]), array([ 10.018,  62.388, -86.258]))
+('3eqx', 3715, 0, 3546, array([  9.443,  65.509, -87.674]), array([  9.875,  63.21 , -86.464]), array([ 10.018,  62.388, -86.258]))
+('3es4', 34, 0, 1570, array([-28.399,   1.448,  39.598]), array([-31.108,   2.095,  40.024]), array([-31.51 ,   2.722,  40.454]))
+('3es4', 1000, 0, 638, array([-7.189, 27.935, 52.993]), array([-5.351, 28.998, 51.262]), array([-5.072, 28.755, 50.486]))
+('3etn', 1344, 0, 2706, array([85.422, 56.775,  5.466]), array([85.358, 57.698,  2.711]), array([85.174, 57.734,  1.872]))
+('3etn', 2886, 0, 1159, array([56.261, 71.063, 13.172]), array([57.084, 73.795, 12.384]), array([57.449, 74.574, 12.396]))
+('3etn', 4437, 0, 5812, array([50.58 , 34.051, 28.957]), array([50.622, 31.291, 29.81 ]), array([50.796, 30.458, 29.936]))
+('3etn', 5992, 0, 4252, array([79.695, 42.164, 42.983]), array([78.89 , 41.39 , 45.649]), array([78.524, 41.426, 46.427]))
+('3f0h', 122, 0, 61, array([20.68 , 45.176, 15.571]), array([20.341, 42.616, 14.195]), array([20.352, 41.765, 14.068]))
+('3g16', 398, 0, 2250, array([16.052, 48.115, 23.914]), array([13.956, 49.808, 24.428]), array([13.418, 50.252, 24.931]))
+('3g16', 1609, 0, 1037, array([ 8.721, 60.408, 29.084]), array([10.697, 58.438, 28.902]), array([11.148, 57.708, 28.853]))
+('3g68', 573, 0, 537, array([47.11 , 49.222, 42.893]), array([44.888, 49.583, 41.04 ]), array([44.546, 49.426, 40.267]))
+('3g68', 3340, 0, 3304, array([-4.968, 56.325,  1.06 ]), array([-4.687, 56.774,  3.93 ]), array([-4.938, 56.621,  4.738]))
+('3g7q', 95, 0, 107, array([-20.099,  55.955,  -0.882]), array([-21.777,  58.106,  -0.194]), array([-22.339,  58.518,   0.31 ]))
+('3gf6', 2463, 0, 2143, array([53.453, 70.826, 27.922]), array([50.699, 70.549, 28.928]), array([50.258, 70.843, 29.605]))
+('3go5', 475, 0, 861, array([51.293, 34.957,  4.386]), array([51.679, 32.392,  5.389]), array([51.473, 31.591,  5.625]))
+('3go5', 476, 0, 861, array([51.643, 35.024,  4.617]), array([51.679, 32.392,  5.389]), array([51.473, 31.591,  5.625]))
+('3go9', 15, 0, 24, array([58.753, 19.848, 24.123]), array([61.221, 19.572, 22.646]), array([61.693, 19.394, 21.95 ]))
+('3gr3', 975, 0, 930, array([17.218, 79.953, 19.591]), array([19.97 , 80.326, 19.226]), array([20.579, 80.823, 18.876]))
+('3gve', 2155, 0, 1935, array([19.93 , 39.962, 37.07 ]), array([20.143, 37.126, 37.133]), array([20.304, 36.563, 37.763]))
+('3gve', 4857, 0, 4655, array([13.697,  9.567, 37.049]), array([13.461, 12.42 , 37.108]), array([13.325, 12.977, 37.749]))
+('3hdj', 67, 0, 40, array([ 2.777, 33.843, 18.996]), array([ 2.051, 31.478, 20.219]), array([ 1.977, 30.686, 20.545]))
+('3hdj', 2451, 0, 2424, array([17.694, 33.051, 34.666]), array([18.086, 30.772, 33.203]), array([18.064, 30.025, 32.778]))
+('3hdo', 2668, 0, 2622, array([24.386, -7.759, 40.739]), array([26.276, -7.15 , 42.358]), array([26.878, -7.051, 42.964]))
+('3hj4', 1498, 0, 2091, array([55.345,  0.394,  4.687]), array([57.37 ,  1.131,  2.994]), array([58.101,  1.472,  2.697]))
+('3hj4', 4600, 0, 5193, array([27.205, 52.758, 25.256]), array([24.807, 52.096, 26.627]), array([24.279, 51.695, 27.175]))
+('3hn7', 560, 0, 530, array([14.461, 47.885, 42.885]), array([11.693, 47.386, 43.842]), array([10.944, 46.973, 43.754]))
+('3hp7', 12, 0, 431, array([51.02 , 70.478,  9.468]), array([50.158, 69.936, 12.132]), array([49.587, 69.532, 12.632]))
+('3i0z', 4570, 0, 4064, array([10.972, 74.077, 12.533]), array([ 8.178, 75.019, 12.971]), array([ 7.661, 74.624, 13.534]))
+('3iee', 1815, 0, 1741, array([10.385, 68.198, 18.516]), array([12.138, 69.44 , 20.239]), array([12.614, 69.825, 20.843]))
+('3ihv', 1189, 0, 1151, array([53.376, -9.359, 65.288]), array([53.614, -7.346, 63.583]), array([53.961, -6.811, 63.006]))
+('3ihv', 5525, 0, 5487, array([ 63.869, -45.657,   0.069]), array([ 63.799, -43.523,   1.713]), array([ 63.469, -42.985,   2.297]))
+('3iup', 619, 0, 424, array([ 9.043, 28.219, 30.842]), array([11.398, 28.84 , 31.76 ]), array([12.157, 29.241, 31.801]))
+('3iup', 3447, 0, 3236, array([11.649, 75.56 , 30.046]), array([10.3  , 75.137, 32.444]), array([ 9.698, 74.726, 32.9  ]))
+('3iuw', 1199, 0, 864, array([34.048, 42.331,  0.351]), array([33.543, 41.396,  2.42 ]), array([33.267, 41.616,  3.204]))
+('3iuw', 1199, 0, 865, array([34.048, 42.331,  0.351]), array([33.543, 41.396,  2.42 ]), array([33.244, 41.618,  3.189]))
+('3iuw', 1199, 0, 864, array([34.048, 42.331,  0.351]), array([33.487, 41.423,  2.387]), array([33.267, 41.616,  3.204]))
+('3iuw', 1199, 0, 865, array([34.048, 42.331,  0.351]), array([33.487, 41.423,  2.387]), array([33.244, 41.618,  3.189]))
+('3k1u', 110, 0, 649, array([14.836,  4.063, 12.005]), array([16.376,  4.467, 14.278]), array([16.574,  4.957, 14.956]))
+('3kd3', 1505, 0, 1543, array([23.217, 51.425, 17.015]), array([24.232, 53.83 , 16.554]), array([24.571, 54.551, 16.231]))
+('3kd3', 3241, 0, 3279, array([49.082, 40.588,  8.923]), array([50.458, 42.882,  9.263]), array([50.941, 43.593,  9.285]))
+('3kv1', 451, 0, 414, array([65.015, 21.702,  2.283]), array([64.075, 19.443,  3.537]), array([63.982, 18.755,  4.045]))
+('3l0q', 1061, 0, 1033, array([-15.779, -29.491, -28.24 ]), array([-15.089, -27.192, -29.906]), array([-14.739, -26.582, -30.4  ]))
+('3l0q', 5222, 0, 5194, array([ 19.012, -24.57 ,  22.342]), array([ 21.072, -26.405,  21.63 ]), array([ 21.718, -26.868,  21.301]))
+('3ld7', 1829, 0, 1905, array([63.94 , 13.369,  9.947]), array([64.156, 12.418, 12.679]), array([63.953, 11.9  , 13.335]))
+('3lul', 7, 0, 16, array([49.374, -9.734, 27.008]), array([49.36 , -7.959, 24.632]), array([49.595, -7.327, 24.098]))
+('3lul', 2255, 0, 2264, array([74.579, -2.43 , -5.637]), array([74.143, -1.695, -2.836]), array([73.905, -1.37 , -2.076]))
+('3ly1', 875, 0, 709, array([ 74.129,  57.745, -61.631]), array([ 76.141,  55.836, -61.555]), array([ 76.908,  55.46 , -61.452]))
+('3ly1', 3599, 0, 3433, array([ 80.105,   3.254, -61.425]), array([ 78.144,   5.182, -61.304]), array([ 77.376,   5.559, -61.218]))
+('3ly1', 6352, 0, 6186, array([47.227, 77.427, 11.638]), array([45.265, 75.462, 11.479]), array([44.472, 75.133, 11.431]))
+('3ly1', 9162, 0, 8996, array([40.891, 23.029, 11.641]), array([42.895, 24.955, 11.502]), array([43.67 , 25.319, 11.425]))
+('3ly1', 881, 0, 830, array([ 46.441,  22.998, -12.536]), array([ 45.253,  25.131, -12.103]), array([ 44.796,  25.857, -12.165]))
+('3oru', 1214, 0, 110, array([  0.843, -57.566,  -5.166]), array([ 4.6000e-02, -5.7367e+01, -7.6750e+00]), array([ -0.455, -57.091,  -8.317]))
+('3oru', 1680, 0, 1690, array([ -6.057, -41.209,  -3.859]), array([ -6.537, -40.47 ,  -6.692]), array([ -6.854, -40.285,  -7.469]))
+('3p02', 2520, 0, 1677, array([37.185, 29.71 , 11.201]), array([38.714, 28.727, 13.464]), array([39.07 , 28.771, 14.246]))
+('3pf6', 11, 0, 634, array([ 1.383, 37.8  , 15.545]), array([ 0.423, 36.812, 13.24 ]), array([ 0.133, 36.685, 12.441]))
+('3pf6', 11, 0, 635, array([ 1.383, 37.8  , 15.545]), array([ 0.423, 36.812, 13.24 ]), array([ 0.09 , 36.748, 12.43 ]))
+('3pf6', 11, 0, 634, array([ 1.383, 37.8  , 15.545]), array([ 0.335, 36.914, 13.238]), array([ 0.133, 36.685, 12.441]))
+('3pf6', 11, 0, 635, array([ 1.383, 37.8  , 15.545]), array([ 0.335, 36.914, 13.238]), array([ 0.09 , 36.748, 12.43 ]))
+('3pi7', 57, 0, 879, array([43.656, 14.353, 60.139]), array([42.378, 15.433, 57.854]), array([41.907, 16.106, 57.601]))
+('3poh', 2888, 0, 2861, array([60.941, 30.241, 61.577]), array([60.989, 33.136, 61.615]), array([61.07 , 33.99 , 61.562]))
+('3qy3', 123, 0, 537, array([  1.458, -12.546,   6.847]), array([  2.471, -11.93 ,   9.45 ]), array([  2.603, -11.976,  10.299]))
+('3s83', 1821, 0, 1784, array([32.214, 18.93 ,  6.86 ]), array([33.391, 16.454,  6.963]), array([33.727, 15.663,  6.937]))
+('3s9j', 2914, 0, 240, array([37.182, 36.091, 16.922]), array([38.128, 38.236, 18.402]), array([38.523, 38.962, 18.638]))
+('3v75', 871, 0, 832, array([ 5.793, 18.504, -6.461]), array([ 3.146, 17.883, -6.278]), array([ 2.298, 17.86 , -6.138]))
+('4bc3', 2757, 3298, 3290, array([ 0.463, 52.441, 50.286]), array([ 0.401, 55.232, 51.265]), array([ 0.435, 55.886, 51.822]))
+('4bc3', 606, 1165, 1157, array([46.177, 31.911, 39.46 ]), array([48.364, 30.165, 40.391]), array([48.838, 29.701, 40.939]))
+('4d05', 2868, 194, 183, array([30.773, 13.614, 19.422]), array([30.229, 12.495, 22.124]), array([29.814, 12.691, 22.851]))
+('4dm5', 170, 0, 135, array([  7.092,  -0.941, -52.033]), array([  6.462,  -2.809, -50.517]), array([  6.046,  -3.515, -50.256]))
+('4dm5', 882, 0, 838, array([ 3.016,  2.025, -0.581]), array([ 2.447,  3.815, -2.42 ]), array([ 1.999,  4.545, -2.499]))
+('4dm5', 882, 0, 839, array([ 3.016,  2.025, -0.581]), array([ 2.447,  3.815, -2.42 ]), array([ 1.951,  4.64 , -2.342]))
+('4dm5', 882, 0, 838, array([ 3.016,  2.025, -0.581]), array([ 2.359,  3.974, -1.982]), array([ 1.999,  4.545, -2.499]))
+('4dm5', 882, 0, 839, array([ 3.016,  2.025, -0.581]), array([ 2.359,  3.974, -1.982]), array([ 1.951,  4.64 , -2.342]))
+('4dm5', 1627, 0, 1599, array([-11.324, -16.224, -53.604]), array([-10.909, -14.207, -51.84 ]), array([-10.491, -13.546, -51.482]))
+('4dm5', 2317, 0, 2289, array([  4.14 , -22.427,   0.864]), array([  4.555, -24.528,  -0.865]), array([  4.977, -25.166,  -1.259]))
+('4e1b', 2380, 0, 2296, array([-1.083, 41.783, 13.501]), array([-0.474, 43.459, 11.465]), array([ 0.073, 43.947, 11.015]))
+('4fc9', 1130, 0, 914, array([19.898,  0.366,  9.334]), array([19.088, -2.279,  9.072]), array([18.964, -3.045,  8.7  ]))
+('4fc9', 2560, 0, 2337, array([ 45.079, -20.928,  -9.864]), array([ 47.442, -19.702, -10.039]), array([ 48.054, -19.219, -10.401]))
+('4fc9', 3887, 0, 3661, array([ 49.288,  16.944, -20.876]), array([ 52.022,  16.371, -20.659]), array([ 52.781,  16.135, -20.331]))
+('4ffu', 1262, 0, 2240, array([59.383, 92.795, 55.405]), array([57.655, 92.506, 57.397]), array([57.255, 92.656, 58.143]))
+('4gb7', 1267, 0, 1781, array([12.892, 38.889,  8.824]), array([11.319, 40.447, 10.15 ]), array([10.768, 40.995, 10.517]))
+('4gt6', 2248, 0, 2423, array([87.937, 66.136, 46.236]), array([89.996, 66.523, 44.238]), array([90.621, 66.95 , 43.83 ]))
+('4h41', 1037, 1103, 1097, array([-15.466,  98.891,   4.486]), array([-16.868, 101.391,   4.782]), array([-17.277, 102.098,   4.512]))
+('4h41', 6303, 6369, 6363, array([ 4.19 , 84.833, 49.725]), array([ 3.727, 83.824, 52.425]), array([ 3.833, 83.914, 53.274]))
+('4h41', 1397, 1463, 1457, array([-12.432,  49.105,  16.688]), array([-14.74 ,  47.745,  15.576]), array([-15.169,  47.026,  15.381]))
+('4h41', 3388, 3390, 3382, array([-2.705, 73.395,  7.029]), array([-6.4000e-02,  7.3823e+01,  7.0240e+00]), array([ 0.585, 73.874,  7.586]))
+('4hjf', 1751, 0, 1714, array([-22.91 ,  12.819, -24.98 ]), array([-23.148,  12.112, -22.227]), array([-23.235,  11.844, -21.414]))
+('4i0w', 5973, 0, 5319, array([39.04 , 72.088, 34.753]), array([37.92 , 73.836, 36.905]), array([37.172, 74.161, 37.178]))
+('4i8i', 1308, 0, 1124, array([34.728, 24.149, 23.258]), array([34.228, 26.706, 22.396]), array([33.832, 27.453, 22.238]))
+('4jja', 1775, 0, 1688, array([ 5.069, 10.86 , 35.599]), array([ 4.947, 10.043, 38.129]), array([ 5.036,  9.652, 38.89 ]))
+('4k05', 3906, 0, 3877, array([-14.898,  82.667, -11.278]), array([-13.641,  80.534, -12.7  ]), array([-13.115,  79.947, -13.045]))
+('4krg', 273, 0, 536, array([-2.593, 59.546,  2.239]), array([-2.139, 59.523, -0.517]), array([-2.254, 59.609, -1.365]))
+('4krg', 1066, 0, 1313, array([-11.776,  57.923,   9.752]), array([-12.511,  55.534,  10.985]), array([-12.731,  54.809,  11.393]))
+('4krg', 4082, 0, 4342, array([13.763, 31.471, -8.153]), array([13.734, 31.827, -5.497]), array([13.888, 31.604, -4.681]))
+('4n03', 2795, 0, 1095, array([ 7.173,  1.901, 22.533]), array([ 7.59 ,  3.582, 24.473]), array([ 7.615,  4.265, 24.995]))
+('4n0r', 2955, 0, 3077, array([15.575, -7.412, 50.498]), array([17.642, -8.39 , 48.673]), array([18.336, -8.521, 48.182]))
+('4n0r', 7248, 0, 7370, array([15.992,  6.197, 84.649]), array([18.111,  7.051, 86.499]), array([18.809,  7.136, 86.995]))
+('4pxy', 1693, 0, 1639, array([24.828, -9.904, 63.268]), array([ 25.167, -10.467,  65.86 ]), array([ 25.178, -10.433,  66.719]))
+('4pxy', 3718, 0, 3664, array([26.672,  1.47 , 18.085]), array([27.106,  1.9  , 15.527]), array([27.102,  1.844, 14.669]))
+('4q2w', 782, 0, 754, array([35.387, 24.671, -3.068]), array([36.645, 24.614, -5.227]), array([36.817, 24.71 , -6.064]))
+('4q6j', 2132, 0, 2134, array([-31.611,   4.965,  54.558]), array([-31.762,   6.513,  56.531]), array([-31.306,   6.546,  57.259]))
+('4qhw', 1477, 0, 1533, array([39.387, 21.329, 45.807]), array([38.464, 18.933, 46.807]), array([37.915, 18.303, 47.009]))
+('4qhw', 3203, 0, 2907, array([45.308, 29.96 , 32.972]), array([43.607, 30.645, 35.107]), array([43.234, 30.692, 35.88 ]))
+('4s1p', 546, 0, 554, array([ 0.235, 64.595, -2.072]), array([ 1.443, 62.189, -1.419]), array([ 1.953, 61.503, -1.32 ]))
+('4s1w', 2273, 0, 2386, array([ 9.038, 45.145, 27.664]), array([ 7.253, 46.042, 29.518]), array([ 6.614, 46.149, 30.084]))
+('4s1w', 4941, 0, 5054, array([54.44 , 62.118, 20.488]), array([55.246, 63.86 , 18.511]), array([55.682, 64.302, 17.916]))
+('4w79', 1432, 0, 1204, array([22.639,  3.625,  7.091]), array([21.811,  4.568,  4.504]), array([21.509,  5.172,  3.971]))
+('4xjy', 878, 0, 774, array([76.194, 34.572, 22.426]), array([74.238, 35.352, 24.383]), array([73.686, 35.883, 24.774]))
+('4xjy', 3179, 0, 3081, array([26.373, 54.082, 53.516]), array([23.792, 53.297, 54.496]), array([23.21 , 52.763, 54.836]))
+('4xsq', 996, 0, 714, array([-12.514,   1.235,  35.572]), array([-12.508,  -1.556,  35.72 ]), array([-12.79 ,  -2.368,  35.724]))
+('4xsq', 2313, 0, 2037, array([-10.732,  -2.012,   0.497]), array([-12.19 ,   0.43 ,   0.171]), array([-12.86 ,   0.968,   0.144]))
+('4yd8', 343, 0, 130, array([35.512, 61.71 , 92.842]), array([37.769, 62.318, 94.715]), array([38.467, 62.009, 95.111]))
+('4yd8', 3062, 0, 2847, array([ 36.002,  61.427, 145.155]), array([ 37.604,  62.942, 143.289]), array([ 37.614,  63.723, 142.93 ]))
+('4yle', 3078, 2655, 2641, array([ 2.567, 11.944, 24.398]), array([ 3.743, 12.361, 22.037]), array([ 4.402, 12.176, 21.516]))
+('4yyc', 1781, 0, 1691, array([30.033, -1.319, 22.074]), array([27.62 , -1.637, 23.374]), array([27.254, -1.871, 24.116]))
+('4yzo', 811, 0, 1481, array([152.746,  45.188, -39.891]), array([155.324,  46.265, -39.115]), array([156.234,  46.478, -39.154]))
+('4yzo', 811, 0, 1482, array([152.746,  45.188, -39.891]), array([155.324,  46.265, -39.115]), array([156.101,  46.553, -38.885]))
+('4yzo', 3614, 0, 4280, array([105.085,  26.862,  -8.616]), array([102.703,  27.346,  -7.29 ]), array([102.053,  27.537,  -6.76 ]))
+('4yzo', 3614, 0, 4281, array([105.085,  26.862,  -8.616]), array([102.703,  27.346,  -7.29 ]), array([101.988,  27.539,  -6.816]))
+('4yzo', 3614, 0, 4280, array([105.085,  26.862,  -8.616]), array([102.581,  27.362,  -7.413]), array([102.053,  27.537,  -6.76 ]))
+('4yzo', 3614, 0, 4281, array([105.085,  26.862,  -8.616]), array([102.581,  27.362,  -7.413]), array([101.988,  27.539,  -6.816]))
+('4yzo', 6422, 0, 7004, array([125.301,  43.75 , -40.272]), array([122.501,  42.874, -39.989]), array([121.806,  42.51 , -39.636]))
+('4yzo', 6422, 0, 7005, array([125.301,  43.75 , -40.272]), array([122.501,  42.874, -39.989]), array([121.846,  42.499, -39.596]))
+('4yzo', 6422, 0, 7004, array([125.301,  43.75 , -40.272]), array([122.57 ,  42.842, -39.909]), array([121.806,  42.51 , -39.636]))
+('4yzo', 6422, 0, 7005, array([125.301,  43.75 , -40.272]), array([122.57 ,  42.842, -39.909]), array([121.846,  42.499, -39.596]))
+('4yzo', 9129, 0, 9728, array([130.489,  18.478, -12.628]), array([133.315,  18.386, -13.207]), array([134.141,  18.626, -13.207]))
+('4yzo', 9129, 0, 9729, array([130.489,  18.478, -12.628]), array([133.315,  18.386, -13.207]), array([134.13 ,  18.667, -13.187]))
+('4yzo', 9129, 0, 9728, array([130.489,  18.478, -12.628]), array([133.293,  18.469, -13.179]), array([134.141,  18.626, -13.207]))
+('4yzo', 9129, 0, 9729, array([130.489,  18.478, -12.628]), array([133.293,  18.469, -13.179]), array([134.13 ,  18.667, -13.187]))
+('4zrx', 4211, 0, 4176, array([ -1.347,  27.228, -13.781]), array([ -1.859,  28.579, -16.245]), array([ -2.161,  28.871, -16.995]))
+('4zrx', 4211, 0, 4176, array([ -1.347,  27.228, -13.781]), array([ -1.891,  28.612, -16.221]), array([ -2.161,  28.871, -16.995]))
+('5d08', 1075, 0, 1112, array([44.086, 71.128, 83.26 ]), array([45.432, 72.797, 81.26 ]), array([45.939, 73.202, 80.696]))
+('5d08', 4132, 0, 4169, array([86.066, 67.684, 83.194]), array([87.423, 69.34 , 81.2  ]), array([87.929, 69.752, 80.64 ]))
+('5jph', 93, 0, 47, array([18.242, 41.266, 83.211]), array([18.061, 39.902, 80.769]), array([18.199, 39.623, 79.967]))
+('5jph', 1348, 0, 1310, array([-18.677,  44.916,  81.647]), array([-18.584,  43.422,  79.184]), array([-18.729,  42.857,  78.552]))
+('5jph', 2607, 0, 2567, array([ -2.3  ,  -3.902, 111.44 ]), array([ -1.886,  -1.04 , 111.314]), array([ -1.937,  -0.21 , 111.095]))
+('5tro', 2113, 0, 2675, array([ 18.948,  -9.779, -37.386]), array([ 18.554, -11.977, -35.484]), array([ 18.609, -12.814, -35.293]))
+('5tro', 2250, 0, 1978, array([ 15.579, -33.565, -38.177]), array([ 13.616, -35.408, -37.41 ]), array([ 13.017, -35.835, -36.965]))
+('5tro', 6271, 0, 6019, array([-0.595, 17.556, 41.54 ]), array([-2.337, 19.278, 40.098]), array([-2.686, 19.746, 39.467]))
+('5vug', 1749, 0, 1383, array([ 8.073, 16.872,  6.931]), array([ 6.48 , 18.872,  8.131]), array([ 5.978, 19.567,  8.062]))

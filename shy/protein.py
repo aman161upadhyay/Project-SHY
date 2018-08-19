@@ -48,7 +48,20 @@ class Protein:
         """
         results = []
         for line in self.lines:
-            if line[12:16].strip() == neighbour_atom_type and line[17:20].strip() != "HOH":
+            if line[12:14].strip() == neighbour_atom_type and line[17:20].strip() != "HOH":
+                atom = Protein.parse_line_atom_details(line)
+                if Atom.distance(center_atom, atom) <= max_neighbour_distance:
+                    results.append(atom)
+        return results
+
+    def get_proximal_hydrogens(self, center_atom, neighbour_atom_type, max_neighbour_distance):
+        """
+        Get atoms inside a particular radii's sphere
+        (exception) Atoms belonging to water residues are excluded
+        """
+        results = []
+        for line in self.lines:
+            if ((line[12:13].strip() == neighbour_atom_type or line[12:14].strip() == neighbour_atom_type) and line[17:20].strip() != "HOH"):
                 atom = Protein.parse_line_atom_details(line)
                 if Atom.distance(center_atom, atom) <= max_neighbour_distance:
                     results.append(atom)
