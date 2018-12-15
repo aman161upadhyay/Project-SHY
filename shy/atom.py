@@ -1,11 +1,16 @@
 from numpy import array, dot, arccos
 from numpy.linalg import norm
 
+
 class Atom:
     """ Represents location and residue number of an atom """
 
-    def __init__(self, residue_number=None, x=None, y=None, z=None):
+    def __init__(self, atom_name, aminoacid, b_factor, occupancy, residue_number=None, x=None, y=None, z=None):
+        self.atom_name = atom_name
+        self.aminoacid = aminoacid
         self.residue_number = residue_number
+        self.b_factor = b_factor
+        self.occupancy = occupancy
         self.coordinates = array([x, y, z])
 
     @staticmethod
