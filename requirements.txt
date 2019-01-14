@@ -3,4 +3,4 @@
 setuptools
 numpy
 matplotlib
-image
+pytraj
