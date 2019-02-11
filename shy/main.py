@@ -60,12 +60,19 @@ i_minus_1 = []
 i_minus_2 = []
 i_minus_3 = []
 i_minus_4 = []
-acceptor_n_ss = []
-acceptor_o_ss = []
-donor_ss = []
+donor_n_ss = []
+donor_o_ss = []
+acceptor_ss = []
 primary = []
 close = []
 closer = []
+donor = []
+donor_residues = []
+test_acceptor_sasa = []
+test_donor_sasa = []
+control_acceptor_sasa = []
+control_donor_sasa = []
+d_a_difference = []
 
 temp_se = 999999
 temp_ox = 999999
@@ -122,17 +129,22 @@ for protein in proteins:
                     probable_h_bond.append((protein.name, se.atom_number, hydrogen.atom_number,
                                             oxygen.atom_number, se.occupancy, se.b_factor,
                                             se.coordinates, hydrogen.coordinates, oxygen.coordinates,
-                                            se.residue_number, oxygen.residue_number))
+                                            se.chain, se.residue_number, oxygen.residue_number))
                     res = se.residue_number
                     res1 = oxygen.residue_number
-                    acceptor_o_ss.append((protein.get_ss(name, res)))
-                    donor_ss.append((protein.get_ss(name, res1)))
+                    donor_o_ss.append((protein.get_ss(name, res)))
+                    acceptor_ss.append((protein.get_ss(name, res1)))
 
                     if temp_b_factor != se.b_factor:
                         b_factors.append(se.b_factor)
                     temp_b_factor = se.b_factor
 
+                    control_b_factors.pop()
+
                     pdb_list.append(protein.name)
+
+                    donor.append((oxygen.atom_name, oxygen.residue_name))
+                    donor_residues.append(oxygen.residue_name)
 
                     if se.atom_number == temp_se:
                         bifurcated.append((protein.name, se.atom_number, oxygen.atom_number))
@@ -189,6 +201,23 @@ for protein in proteins:
                     except IndexError:
                         continue
 
+                    d_a_difference.append((abs(se.residue_number - oxygen.residue_number)))
+
+                    temp_path = 'Downloads/sasa/' + protein.name
+                    sasa_file = open(temp_path + ".rsa", 'r')
+                    for line in sasa_file.readlines():
+                        if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                                int(line[9:13].strip()) == se.residue_number and
+                                line[4:7].strip() == se.residue_name):
+                            sasa = float(line[13:22].strip())
+                            test_acceptor_sasa.append(sasa)
+                        if (line.startswith("RES") and line[8:9].strip() == oxygen.chain and
+                                int(line[9:13].strip()) == oxygen.residue_number and
+                                line[4:7].strip() == oxygen.residue_name):
+                            sasa = float(line[13:22].strip())
+                            test_donor_sasa.append(sasa)
+                    sasa_file.close()
+
         # -----------------------------------------------------------------------------------------------------------------
         # SE ATOMS' PROCESSING AND NITROGEN'S START HERE
         # -----------------------------------------------------------------------------------------------------------------
@@ -220,18 +249,24 @@ for protein in proteins:
                     probable_h_bond.append((protein.name, se.atom_number, hydrogen.atom_number,
                                             nitrogen.atom_number, se.occupancy, se.b_factor,
                                             se.coordinates, hydrogen.coordinates, nitrogen.coordinates,
-                                            se.residue_number, nitrogen.residue_number))
+                                            se.chain, se.residue_number, nitrogen.residue_number))
 
                     res = se.residue_number
                     res1 = nitrogen.residue_number
-                    acceptor_n_ss.append((protein.get_ss(name, res)))
-                    donor_ss.append((protein.get_ss(name, res1)))
+                    donor_n_ss.append((protein.get_ss(name, res)))
+                    acceptor_ss.append((protein.get_ss(name, res1)))
 
                     if temp_b_factor != se.b_factor:
                         b_factors.append(se.b_factor)
                     temp_b_factor = se.b_factor
 
+                    control_b_factors.pop()
+
+                    donor.append((nitrogen.atom_name, nitrogen.residue_name))
+                    donor_residues.append(nitrogen.residue_name)
+
                     pdb_list.append(protein.name)
+
                     if se.atom_number == temp_se:
                         bifurcated.append((protein.name, se.atom_number, nitrogen.atom_number))
                     if nitrogen.atom_number == temp_ni:
@@ -287,9 +322,25 @@ for protein in proteins:
                     except IndexError:
                         continue
 
+                    d_a_difference.append((abs(se.residue_number - nitrogen.residue_number)))
+
+                    temp_path = 'Downloads/sasa/' + protein.name
+                    sasa_file = open(temp_path + ".rsa", 'r')
+                    for line in sasa_file.readlines():
+                        if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                                int(line[9:13].strip()) == se.residue_number and line[4:7].strip() == se.residue_name):
+                            sasa = float(line[13:22].strip())
+                            test_acceptor_sasa.append(sasa)
+                        if (line.startswith("RES") and line[8:9].strip() == nitrogen.chain and
+                                int(line[9:13].strip()) == nitrogen.residue_number and
+                                line[4:7].strip() == nitrogen.residue_name):
+                            sasa = float(line[13:22].strip())
+                            test_donor_sasa.append(sasa)
+                    sasa_file.close()
+
         temp_se = se.atom_number
 
-    sys.stdout = open('0114_03.txt', 'a')
+    sys.stdout = open('0201_01.txt', 'a')
     print("file_no", count)
     count += 1
     print("Analyzing " + protein.name)
@@ -342,8 +393,8 @@ for factors in b_factors:
     normalized_b_factor = (factors - avg_b_factors) / std_dev_b_factors
     normalized_b_factors.append(normalized_b_factor)
 
-for factors in normalized_b_factors:
-    print(factors)
+# for factors in normalized_b_factors:
+#   print(factors)
 
 avg_normalized_b_factors = numpy.mean(normalized_b_factors)
 std_dev_normalized_b_factors = numpy.std(normalized_b_factors)
@@ -397,12 +448,12 @@ for bi in bifurcated:
     print(bi)
 print("Number of bifurcated HBs:", len(bifurcated))
 
-for donors in donor_ss:
-    print("Se profile", donors)
-for acceptors in acceptor_o_ss:
-    print("Ox profile", acceptors)
-for acceptors in acceptor_n_ss:
-    print("Ni profile", acceptors)
+for acceptors in acceptor_ss:
+    print("Se profile", acceptors)
+for donors in donor_o_ss:
+    print("Ox profile", donors)
+for donors in donor_n_ss:
+    print("Ni profile", donors)
 
 temp_pdb = "temp_pdb"
 for pdb_name in pdb_list:
@@ -412,8 +463,8 @@ for pdb_name in pdb_list:
     temp_pdb = pdb_name
 
 letter_counts = Counter(close)
-df = pandas.DataFrame.from_dict(letter_counts, orient='index')
-df.plot(kind='bar')
+df0 = pandas.DataFrame.from_dict(letter_counts, orient='index')
+df0.plot(kind='bar')
 plt.title("I+-4")
 plt.show()
 
@@ -422,6 +473,36 @@ df1 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
 df1.plot(kind='bar')
 plt.title("I+-2")
 plt.show()
+
+letter_counts_ = Counter(donor_residues)
+df2 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+df2.plot(kind='bar')
+plt.title("Donor_Residues")
+plt.show()
+
+letter_counts_ = Counter(acceptor_ss)
+df3 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+df3.plot(kind='bar')
+plt.title("Acceptor_SS")
+plt.show()
+
+donor_ss = donor_o_ss + donor_n_ss
+
+letter_counts_ = Counter(donor_ss)
+df4 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+df4.plot(kind='bar')
+plt.title("Donor_SS")
+plt.show()
+
+for t in test_acceptor_sasa:
+    print(t)
+
+for t in test_donor_sasa:
+    print(t)
+
+s = pandas.Series(d_a_difference)
+values = s.value_counts()
+print(values)
 
 sys.stdout.flush()
 

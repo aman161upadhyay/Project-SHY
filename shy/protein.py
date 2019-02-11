@@ -25,14 +25,16 @@ class Protein:
     def parse_line_atom_details(line):
         """ Get atom object from line string"""
         atom_name = line[12:16].strip()
-        atom_number = int(line[7:11].strip())
+        atom_number = int(line[6:11].strip())
+        residue_name = (line[17:20].strip())
         residue_number = int(line[22:26].strip())
+        chain = line[21:22].strip()
         b_factor = float(line[60:66].strip())
         occupancy = float(line[54:60].strip())
         x = float(line[30:38].strip())
         y = float(line[38:46].strip())
         z = float(line[46:54].strip())
-        return Atom(atom_name, residue_number, b_factor, occupancy, atom_number, x, y, z)
+        return Atom(atom_name, residue_name, residue_number, chain, b_factor, occupancy, atom_number, x, y, z)
 
     def contains_amino_acid(self, amino_acid_name):
         """ Check if a protein contains an amino acid """
@@ -96,7 +98,7 @@ class Protein:
         if atom_number == 0:
             raise ValueError
         for line in self.lines:
-            if int(line[7:11].strip()) == atom_number:
+            if int(line[6:11].strip()) == atom_number:
                 return Protein.parse_line_atom_details(line)
 
     def get_ss(self, name, residue_number):
@@ -109,15 +111,12 @@ class Protein:
                 helix_class = int(line[38:40].strip())
                 helix_length = int(line[71:76].strip())
                 ss.append((name, residue_number, decl, helix_class, helix_length))
-                return ss
             if ((line.startswith("SHEET")) and (residue_number >= int(line[22:26].strip())) and
                     (residue_number <= int(line[33:37].strip()))):
                 decl = "Sheet"
                 sheet_sense = line[38:40].strip()
                 ss.append((name, residue_number, decl, sheet_sense))
-                return ss
         ss.append((name, residue_number, "Nothing"))
-        return ss
 
     def neighbors(self):
         """Extracting the primary sequence from a pdb file"""
