@@ -101,7 +101,7 @@ class Protein:
             if int(line[6:11].strip()) == atom_number:
                 return Protein.parse_line_atom_details(line)
 
-    def get_ss(self, name, residue_number):
+    def get_ss(self, name, chain_id, residue_number):
         """Get the secondary structure of the residue"""
         ss = []
         for line in self.lines_ss:
@@ -110,13 +110,16 @@ class Protein:
                 decl = "Helix"
                 helix_class = int(line[38:40].strip())
                 helix_length = int(line[71:76].strip())
-                ss.append((name, residue_number, decl, helix_class, helix_length))
+                ss.append((name, chain_id, residue_number, decl, helix_class, helix_length))
+                return ss
             if ((line.startswith("SHEET")) and (residue_number >= int(line[22:26].strip())) and
                     (residue_number <= int(line[33:37].strip()))):
                 decl = "Sheet"
                 sheet_sense = line[38:40].strip()
-                ss.append((name, residue_number, decl, sheet_sense))
-        ss.append((name, residue_number, "Nothing"))
+                ss.append((name, chain_id, residue_number, decl, sheet_sense))
+                return ss
+        ss.append((name, chain_id, residue_number, "Loop"))
+        return ss
 
     def neighbors(self):
         """Extracting the primary sequence from a pdb file"""

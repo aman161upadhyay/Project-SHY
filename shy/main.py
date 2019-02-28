@@ -72,7 +72,12 @@ test_acceptor_sasa = []
 test_donor_sasa = []
 control_acceptor_sasa = []
 control_donor_sasa = []
+normalized_test_donor_sasa = []
+normalized_test_acceptor_sasa = []
+normalized_control_acceptor_sasa = []
+normalized_control_donor_sasa = []
 d_a_difference = []
+secondary_structure = []
 
 temp_se = 999999
 temp_ox = 999999
@@ -103,6 +108,22 @@ for protein in proteins:
         control_b_factors.append(se.b_factor)
 
         for oxygen in proximal_oxygen:
+
+            temp_path = 'Downloads/sasa_All/' + protein.name
+            sasa_file = open(temp_path + ".rsa", 'r')
+            for line in sasa_file.readlines():
+                if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                        int(line[9:13].strip()) == se.residue_number and
+                        line[4:7].strip() == se.residue_name):
+                    sasa = float(line[14:22].strip())
+                    control_acceptor_sasa.append(sasa)
+                if (line.startswith("RES") and line[8:9].strip() == oxygen.chain and
+                        int(line[9:13].strip()) == oxygen.residue_number and
+                        line[4:7].strip() == oxygen.residue_name):
+                    sasa = float(line[14:22].strip())
+                    control_donor_sasa.append(sasa)
+            sasa_file.close()
+
             connected_hydrogen = []
             connected_hydrogen.extend(protein.get_connected_hydrogens(oxygen))
             for hydrogen in connected_hydrogen:
@@ -130,10 +151,13 @@ for protein in proteins:
                                             oxygen.atom_number, se.occupancy, se.b_factor,
                                             se.coordinates, hydrogen.coordinates, oxygen.coordinates,
                                             se.chain, se.residue_number, oxygen.residue_number))
+
                     res = se.residue_number
                     res1 = oxygen.residue_number
-                    donor_o_ss.append((protein.get_ss(name, res)))
-                    acceptor_ss.append((protein.get_ss(name, res1)))
+                    donor_o_ss.append((protein.get_ss(name, se.chain, res)))
+                    acceptor_ss.append((protein.get_ss(name, oxygen.chain, res1)))
+                    secondary_structure.append((protein.get_ss(name, se.chain, res)))
+                    secondary_structure.append((protein.get_ss(name, oxygen.chain, res1)))
 
                     if temp_b_factor != se.b_factor:
                         b_factors.append(se.b_factor)
@@ -203,18 +227,18 @@ for protein in proteins:
 
                     d_a_difference.append((abs(se.residue_number - oxygen.residue_number)))
 
-                    temp_path = 'Downloads/sasa/' + protein.name
+                    temp_path = 'Downloads/sasa_All/' + protein.name
                     sasa_file = open(temp_path + ".rsa", 'r')
                     for line in sasa_file.readlines():
                         if (line.startswith("RES") and line[8:9].strip() == se.chain and
                                 int(line[9:13].strip()) == se.residue_number and
                                 line[4:7].strip() == se.residue_name):
-                            sasa = float(line[13:22].strip())
+                            sasa = float(line[14:22].strip())
                             test_acceptor_sasa.append(sasa)
                         if (line.startswith("RES") and line[8:9].strip() == oxygen.chain and
                                 int(line[9:13].strip()) == oxygen.residue_number and
                                 line[4:7].strip() == oxygen.residue_name):
-                            sasa = float(line[13:22].strip())
+                            sasa = float(line[14:22].strip())
                             test_donor_sasa.append(sasa)
                     sasa_file.close()
 
@@ -223,6 +247,22 @@ for protein in proteins:
         # -----------------------------------------------------------------------------------------------------------------
 
         for nitrogen in proximal_nitrogen:
+
+            temp_path = 'Downloads/sasa_All/' + protein.name
+            sasa_file = open(temp_path + ".rsa", 'r')
+            for line in sasa_file.readlines():
+                if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                        int(line[9:13].strip()) == se.residue_number and
+                        line[4:7].strip() == se.residue_name):
+                    sasa = float(line[14:22].strip())
+                    control_acceptor_sasa.append(sasa)
+                if (line.startswith("RES") and line[8:9].strip() == nitrogen.chain and
+                        int(line[9:13].strip()) == nitrogen.residue_number and
+                        line[4:7].strip() == nitrogen.residue_name):
+                    sasa = float(line[14:22].strip())
+                    control_donor_sasa.append(sasa)
+            sasa_file.close()
+
             connected_hydrogen = []
             connected_hydrogen.extend(protein.get_connected_hydrogens(nitrogen))
 
@@ -253,8 +293,10 @@ for protein in proteins:
 
                     res = se.residue_number
                     res1 = nitrogen.residue_number
-                    donor_n_ss.append((protein.get_ss(name, res)))
-                    acceptor_ss.append((protein.get_ss(name, res1)))
+                    donor_n_ss.append((protein.get_ss(name, se.chain, res)))
+                    acceptor_ss.append((protein.get_ss(name, nitrogen.chain, res1)))
+                    secondary_structure.append((protein.get_ss(name, se.chain, res)))
+                    secondary_structure.append((protein.get_ss(name, nitrogen.chain, res1)))
 
                     if temp_b_factor != se.b_factor:
                         b_factors.append(se.b_factor)
@@ -324,23 +366,23 @@ for protein in proteins:
 
                     d_a_difference.append((abs(se.residue_number - nitrogen.residue_number)))
 
-                    temp_path = 'Downloads/sasa/' + protein.name
+                    temp_path = 'Downloads/sasa_All/' + protein.name
                     sasa_file = open(temp_path + ".rsa", 'r')
                     for line in sasa_file.readlines():
                         if (line.startswith("RES") and line[8:9].strip() == se.chain and
                                 int(line[9:13].strip()) == se.residue_number and line[4:7].strip() == se.residue_name):
-                            sasa = float(line[13:22].strip())
+                            sasa = float(line[14:22].strip())
                             test_acceptor_sasa.append(sasa)
                         if (line.startswith("RES") and line[8:9].strip() == nitrogen.chain and
                                 int(line[9:13].strip()) == nitrogen.residue_number and
                                 line[4:7].strip() == nitrogen.residue_name):
-                            sasa = float(line[13:22].strip())
+                            sasa = float(line[14:22].strip())
                             test_donor_sasa.append(sasa)
                     sasa_file.close()
 
         temp_se = se.atom_number
 
-    sys.stdout = open('0201_01.txt', 'a')
+    sys.stdout = open('0227_01.txt', 'a')
     print("file_no", count)
     count += 1
     print("Analyzing " + protein.name)
@@ -382,41 +424,52 @@ for bonds in probable_h_bond:
 
 print("Number of unique residues is: ", len(b_factors))
 
-avg_b_factors = numpy.mean(b_factors)
-std_dev_b_factors = numpy.std(b_factors)
-var_b_factors = numpy.var(b_factors)
+x = numpy.mean(b_factors)
+avg_b_factors = float("{0:.2f}".format(x))
+x = numpy.std(b_factors)
+std_dev_b_factors = float("{0:.2f}".format(x))
+x = numpy.var(b_factors)
+var_b_factors = float("{0:.2f}".format(x))
 print("mean of B factors is: ", avg_b_factors)
 print("SD of B factors is: ", std_dev_b_factors)
 print("Variance of B factors is: ", var_b_factors)
 
 for factors in b_factors:
-    normalized_b_factor = (factors - avg_b_factors) / std_dev_b_factors
+    x = (factors - avg_b_factors) / std_dev_b_factors
+    normalized_b_factor = float("{0:.2f}".format(x))
     normalized_b_factors.append(normalized_b_factor)
 
-# for factors in normalized_b_factors:
-#   print(factors)
-
-avg_normalized_b_factors = numpy.mean(normalized_b_factors)
-std_dev_normalized_b_factors = numpy.std(normalized_b_factors)
-var_normalized_b_factors = numpy.var(normalized_b_factors)
+x = numpy.mean(normalized_b_factors)
+avg_normalized_b_factors = float("{0:.2f}".format(x))
+x = numpy.std(normalized_b_factors)
+std_dev_normalized_b_factors = float("{0:.2f}".format(x))
+x = numpy.var(normalized_b_factors)
+var_normalized_b_factors = float("{0:.2f}".format(x))
 print("Mean of normalized_B factors is: ", avg_normalized_b_factors)
 print("SD of normalized_B factors is: ", std_dev_normalized_b_factors)
 print("Variance of normalized_B factors is: ", var_normalized_b_factors)
 
-avg_control_b_factors = numpy.mean(control_b_factors)
-std_dev_control_b_factors = numpy.std(control_b_factors)
-var_control_b_factors = numpy.var(control_b_factors)
+x = numpy.mean(control_b_factors)
+avg_control_b_factors = float("{0:.2f}".format(x))
+x = numpy.std(control_b_factors)
+std_dev_control_b_factors = float("{0:.2f}".format(x))
+x = numpy.var(control_b_factors)
+var_control_b_factors = float("{0:.2f}".format(x))
 print("mean of control_B factors is: ", avg_control_b_factors)
 print("SD of control_B factors is: ", std_dev_control_b_factors)
 print("Variance of control_B factors is: ", var_control_b_factors)
 
 for factors in control_b_factors:
-    normalized_control_b_factor = (factors - avg_control_b_factors) / std_dev_control_b_factors
+    x = (factors - avg_control_b_factors) / std_dev_control_b_factors
+    normalized_control_b_factor = float("{0:.2f}".format(x))
     normalized_control_b_factors.append(normalized_control_b_factor)
 
-avg_normalized_control_b_factors = numpy.mean(normalized_control_b_factors)
-std_dev_normalized_control_b_factors = numpy.std(normalized_control_b_factors)
-var_normalized_control_b_factors = numpy.var(normalized_control_b_factors)
+x = numpy.mean(normalized_control_b_factors)
+avg_normalized_control_b_factors = float("{0:.2f}".format(x))
+x = numpy.std(normalized_control_b_factors)
+std_dev_normalized_control_b_factors = float("{0:.2f}".format(x))
+x = numpy.var(normalized_control_b_factors)
+var_normalized_control_b_factors = float("{0:.2f}".format(x))
 print("Mean of normalized_control_B factors is: ", avg_normalized_control_b_factors)
 print("SD of normalized_control_B factors is: ", std_dev_normalized_control_b_factors)
 print("Variance of normalized_control_B factors is: ", var_normalized_control_b_factors)
@@ -425,16 +478,13 @@ plt.hist(b_factors, bins=100)
 plt.title("histogram_b_factors")
 plt.show()
 
-plt.hist(normalized_b_factors, bins=100)
-plt.title("histogram_normalized_b_factors")
-plt.show()
-
 plt.hist(control_b_factors, bins=100)
 plt.title("histogram_control_b_factors")
 plt.show()
 
-plt.hist(normalized_control_b_factors, bins=100)
-plt.title("histogram_normalized_control_b_factors")
+plt.hist(normalized_b_factors, bins=100, alpha=0.5, label= 'histogram_normalized_b_factors')
+plt.hist(normalized_control_b_factors, bins=100, alpha=0.5, label= 'histogram_normalized_control_b_factors')
+plt.legend(loc='upper right')
 plt.show()
 
 # -----------------------------------------------------------------------------------------------------------------
@@ -454,25 +504,25 @@ for donors in donor_o_ss:
     print("Ox profile", donors)
 for donors in donor_n_ss:
     print("Ni profile", donors)
-
-temp_pdb = "temp_pdb"
-for pdb_name in pdb_list:
-    if pdb_name == temp_pdb:
-        continue
-    print(pdb_name + ".pdb.hadded.pdb")
-    temp_pdb = pdb_name
-
-letter_counts = Counter(close)
-df0 = pandas.DataFrame.from_dict(letter_counts, orient='index')
-df0.plot(kind='bar')
-plt.title("I+-4")
-plt.show()
-
-letter_counts_ = Counter(closer)
-df1 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
-df1.plot(kind='bar')
-plt.title("I+-2")
-plt.show()
+#
+# temp_pdb = "temp_pdb"
+# for pdb_name in pdb_list:
+#     if pdb_name == temp_pdb:
+#         continue
+#     print(pdb_name + ".pdb.hadded.pdb")
+#     temp_pdb = pdb_name
+#
+# letter_counts = Counter(close)
+# df0 = pandas.DataFrame.from_dict(letter_counts, orient='index')
+# df0.plot(kind='bar')
+# plt.title("I+-4")
+# plt.show()
+#
+# letter_counts_ = Counter(closer)
+# df1 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+# df1.plot(kind='bar')
+# plt.title("I+-2")
+# plt.show()
 
 letter_counts_ = Counter(donor_residues)
 df2 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
@@ -480,29 +530,81 @@ df2.plot(kind='bar')
 plt.title("Donor_Residues")
 plt.show()
 
-letter_counts_ = Counter(acceptor_ss)
-df3 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
-df3.plot(kind='bar')
-plt.title("Acceptor_SS")
-plt.show()
+# letter_counts_ = Counter(acceptor_ss)
+# df3 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+# df3.plot(kind='bar')
+# plt.title("Acceptor_SS")
+# plt.show()
+#
+# donor_ss = donor_o_ss + donor_n_ss
+#
+# letter_counts_ = Counter(donor_ss)
+# df4 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+# df4.plot(kind='bar')
+# plt.title("Donor_SS")
+# plt.show()
 
-donor_ss = donor_o_ss + donor_n_ss
-
-letter_counts_ = Counter(donor_ss)
-df4 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
-df4.plot(kind='bar')
-plt.title("Donor_SS")
-plt.show()
-
-for t in test_acceptor_sasa:
-    print(t)
-
-for t in test_donor_sasa:
-    print(t)
+#
+# NEIGHBOURING RESIDUES
+#
 
 s = pandas.Series(d_a_difference)
 values = s.value_counts()
 print(values)
+
+plt.hist(s, bins=380)
+plt.title("I+-x")
+plt.show()
+
+#
+# Secondary Structures to delete redundant data
+#
+
+# flag = 0
+# for ss in secondary_structure:
+#     flag += 1
+#     print(ss)
+#     if flag % 2 == 0:
+#         print(flag/2)
+#
+
+
+# -----------------------------------------------------------------------------------------------------------------
+# SASA CODES START HERE
+# -----------------------------------------------------------------------------------------------------------------
+
+
+avg_test_donor_sasa = numpy.mean(test_donor_sasa)
+std_dev_test_donor_sasa = numpy.std(test_donor_sasa)
+var_test_donor_sasa = numpy.var(test_donor_sasa)
+print("mean of donor_sasa is: ", avg_test_donor_sasa)
+print("SD of donor_sasa is: ", std_dev_test_donor_sasa)
+print("Variance of donor_sasa is: ", var_test_donor_sasa)
+
+avg_control_donor_sasa = numpy.mean(control_donor_sasa)
+std_dev_control_donor_sasa = numpy.std(control_donor_sasa)
+var_control_donor_sasa = numpy.var(control_donor_sasa)
+print("mean of control_donor_sasa is: ", avg_control_donor_sasa)
+print("SD of control_donor_sasa is: ", std_dev_control_donor_sasa)
+print("Variance of control_donor_sasa is: ", var_control_donor_sasa)
+
+avg_test_acceptor_sasa = numpy.mean(test_acceptor_sasa)
+std_dev_test_acceptor_sasa = numpy.std(test_acceptor_sasa)
+var_test_acceptor_sasa = numpy.var(test_acceptor_sasa)
+print("mean of acceptor_sasa is: ", avg_test_acceptor_sasa)
+print("SD of acceptor_sasa is: ", std_dev_test_acceptor_sasa)
+print("Variance of acceptor_sasa is: ", var_test_acceptor_sasa)
+
+avg_control_acceptor_sasa = numpy.mean(control_acceptor_sasa)
+std_dev_control_acceptor_sasa = numpy.std(control_acceptor_sasa)
+var_control_acceptor_sasa = numpy.var(control_acceptor_sasa)
+print("mean of control_acceptor_sasa is: ", avg_control_acceptor_sasa)
+print("SD of control_acceptor_sasa is: ", std_dev_control_acceptor_sasa)
+print("Variance of control_acceptor_sasa is: ", var_control_acceptor_sasa)
+
+# -----------------------------------------------------------------------------------------------------------------
+# END STARTs HERE
+# -----------------------------------------------------------------------------------------------------------------
 
 sys.stdout.flush()
 
