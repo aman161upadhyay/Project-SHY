@@ -112,7 +112,7 @@ for protein in proteins:
             temp_path = 'Downloads/sasa_All/' + protein.name
             sasa_file = open(temp_path + ".rsa", 'r')
             for line in sasa_file.readlines():
-                if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                if (line.startswith("HEM") and line[8:9].strip() == se.chain and
                         int(line[9:13].strip()) == se.residue_number and
                         line[4:7].strip() == se.residue_name):
                     sasa = float(line[14:22].strip())
@@ -230,7 +230,7 @@ for protein in proteins:
                     temp_path = 'Downloads/sasa_All/' + protein.name
                     sasa_file = open(temp_path + ".rsa", 'r')
                     for line in sasa_file.readlines():
-                        if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                        if (line.startswith("HEM") and line[8:9].strip() == se.chain and
                                 int(line[9:13].strip()) == se.residue_number and
                                 line[4:7].strip() == se.residue_name):
                             sasa = float(line[14:22].strip())
@@ -251,7 +251,7 @@ for protein in proteins:
             temp_path = 'Downloads/sasa_All/' + protein.name
             sasa_file = open(temp_path + ".rsa", 'r')
             for line in sasa_file.readlines():
-                if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                if (line.startswith("HEM") and line[8:9].strip() == se.chain and
                         int(line[9:13].strip()) == se.residue_number and
                         line[4:7].strip() == se.residue_name):
                     sasa = float(line[14:22].strip())
@@ -369,7 +369,7 @@ for protein in proteins:
                     temp_path = 'Downloads/sasa_All/' + protein.name
                     sasa_file = open(temp_path + ".rsa", 'r')
                     for line in sasa_file.readlines():
-                        if (line.startswith("RES") and line[8:9].strip() == se.chain and
+                        if (line.startswith("HEM") and line[8:9].strip() == se.chain and
                                 int(line[9:13].strip()) == se.residue_number and line[4:7].strip() == se.residue_name):
                             sasa = float(line[14:22].strip())
                             test_acceptor_sasa.append(sasa)
@@ -382,7 +382,7 @@ for protein in proteins:
 
         temp_se = se.atom_number
 
-    sys.stdout = open('0227_01.txt', 'a')
+    sys.stdout = open('0301.txt', 'a')
     print("file_no", count)
     count += 1
     print("Analyzing " + protein.name)
@@ -425,51 +425,51 @@ for bonds in probable_h_bond:
 print("Number of unique residues is: ", len(b_factors))
 
 x = numpy.mean(b_factors)
-avg_b_factors = float("{0:.2f}".format(x))
+avg_b_factors = float("{0:.5f}".format(x))
 x = numpy.std(b_factors)
-std_dev_b_factors = float("{0:.2f}".format(x))
+std_dev_b_factors = float("{0:.5f}".format(x))
 x = numpy.var(b_factors)
-var_b_factors = float("{0:.2f}".format(x))
+var_b_factors = float("{0:.5f}".format(x))
 print("mean of B factors is: ", avg_b_factors)
 print("SD of B factors is: ", std_dev_b_factors)
 print("Variance of B factors is: ", var_b_factors)
 
 for factors in b_factors:
     x = (factors - avg_b_factors) / std_dev_b_factors
-    normalized_b_factor = float("{0:.2f}".format(x))
+    normalized_b_factor = float("{0:.4f}".format(x))
     normalized_b_factors.append(normalized_b_factor)
 
 x = numpy.mean(normalized_b_factors)
-avg_normalized_b_factors = float("{0:.2f}".format(x))
+avg_normalized_b_factors = float("{0:.4f}".format(x))
 x = numpy.std(normalized_b_factors)
-std_dev_normalized_b_factors = float("{0:.2f}".format(x))
+std_dev_normalized_b_factors = float("{0:.4f}".format(x))
 x = numpy.var(normalized_b_factors)
-var_normalized_b_factors = float("{0:.2f}".format(x))
+var_normalized_b_factors = float("{0:.4f}".format(x))
 print("Mean of normalized_B factors is: ", avg_normalized_b_factors)
 print("SD of normalized_B factors is: ", std_dev_normalized_b_factors)
 print("Variance of normalized_B factors is: ", var_normalized_b_factors)
 
 x = numpy.mean(control_b_factors)
-avg_control_b_factors = float("{0:.2f}".format(x))
+avg_control_b_factors = float("{0:.4f}".format(x))
 x = numpy.std(control_b_factors)
-std_dev_control_b_factors = float("{0:.2f}".format(x))
+std_dev_control_b_factors = float("{0:.4f}".format(x))
 x = numpy.var(control_b_factors)
-var_control_b_factors = float("{0:.2f}".format(x))
+var_control_b_factors = float("{0:.4f}".format(x))
 print("mean of control_B factors is: ", avg_control_b_factors)
 print("SD of control_B factors is: ", std_dev_control_b_factors)
 print("Variance of control_B factors is: ", var_control_b_factors)
 
 for factors in control_b_factors:
     x = (factors - avg_control_b_factors) / std_dev_control_b_factors
-    normalized_control_b_factor = float("{0:.2f}".format(x))
+    normalized_control_b_factor = float("{0:.4f}".format(x))
     normalized_control_b_factors.append(normalized_control_b_factor)
 
 x = numpy.mean(normalized_control_b_factors)
-avg_normalized_control_b_factors = float("{0:.2f}".format(x))
+avg_normalized_control_b_factors = float("{0:.4f}".format(x))
 x = numpy.std(normalized_control_b_factors)
-std_dev_normalized_control_b_factors = float("{0:.2f}".format(x))
+std_dev_normalized_control_b_factors = float("{0:.4f}".format(x))
 x = numpy.var(normalized_control_b_factors)
-var_normalized_control_b_factors = float("{0:.2f}".format(x))
+var_normalized_control_b_factors = float("{0:.4f}".format(x))
 print("Mean of normalized_control_B factors is: ", avg_normalized_control_b_factors)
 print("SD of normalized_control_B factors is: ", std_dev_normalized_control_b_factors)
 print("Variance of normalized_control_B factors is: ", var_normalized_control_b_factors)
@@ -482,8 +482,9 @@ plt.hist(control_b_factors, bins=100)
 plt.title("histogram_control_b_factors")
 plt.show()
 
-plt.hist(normalized_b_factors, bins=100, alpha=0.5, label= 'histogram_normalized_b_factors')
-plt.hist(normalized_control_b_factors, bins=100, alpha=0.5, label= 'histogram_normalized_control_b_factors')
+plt.hist(normalized_b_factors, bins=100, alpha=0.3, color='b', label='histogram_normalized_b_factors', normed=True)
+plt.hist(normalized_control_b_factors, bins=150, alpha=0.2, color='g',
+         label='histogram_normalized_control_b_factors', normed=True)
 plt.legend(loc='upper right')
 plt.show()
 
@@ -560,14 +561,58 @@ plt.show()
 # Secondary Structures to delete redundant data
 #
 
-# flag = 0
-# for ss in secondary_structure:
-#     flag += 1
-#     print(ss)
-#     if flag % 2 == 0:
-#         print(flag/2)
-#
+second = []
+ss = 0
+sl = 0
+sh = 0
+hs = 0
+hh = 0
+hl = 0
+ls = 0
+lh = 0
+ll = 0
+flag = 0
+last_sec = None
+for sec in secondary_structure:
+    flag += 1
+    if flag % 2 == 0:
+        if last_sec == "Sheet" and sec == "Sheet":
+            ss += 1
+            second.append("ss")
+        if last_sec == "Sheet" and sec == "Helix":
+            sh += 1
+            second.append("sh")
+        if last_sec == "Sheet" and sec == "Loop":
+            sl += 1
+            second.append("sl")
+        if last_sec == "Helix" and sec == "Sheet":
+            hs += 1
+            second.append("hs")
+        if last_sec == "Helix" and sec == "Helix":
+            hh += 1
+            second.append("hh")
+        if last_sec == "Helix" and sec == "Loop":
+            hl += 1
+            second.append("hl")
+        if last_sec == "Loop" and sec == "Helix":
+            lh += 1
+            second.append("lh")
+        if last_sec == "Loop" and sec == "Loop":
+            ll += 1
+            second.append("ll")
+        if last_sec == "Loop" and sec == "Sheet":
+            ls += 1
+            second.append("ls")
 
+    last_sec = sec
+
+print(ss, sh, sl, ll, ls, lh, hh, hs, hl)
+
+letter_counts_ = Counter(second)
+df9 = pandas.DataFrame.from_dict(letter_counts_, orient='index')
+df9.plot(kind='bar')
+plt.title("Secondary Structures Preference")
+plt.show()
 
 # -----------------------------------------------------------------------------------------------------------------
 # SASA CODES START HERE
